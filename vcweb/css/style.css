@@ -1,0 +1,240 @@
+@charset "UTF-8";
+html, body, div, p, ul, li, img, span {
+  margin: 0;
+  padding: 0; }
+
+ul, li {
+  list-style: none; }
+
+img {
+  border: none; }
+
+html {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+body {
+  font-size: 12px;
+  line-height: 1.8em;
+  font-family: "Microsoft YaHei",微软雅黑,"Microsoft JhengHei",华文细黑,STHeiti,MingLiu;
+  background-color: #f2f2f2; }
+
+a {
+  text-decoration: none; }
+
+@media screen and (min-width: 1000px) {
+  .header, .links, .about {
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: #fff; }
+
+  .header {
+    width: 1000px;
+    height: 500px;
+    background-image: url(../img/banner.jpg);
+    background-size: 100%; }
+    .header .logo {
+      width: 88px;
+      height: 110px;
+      padding-bottom: 30px;
+      background-image: url(../img/logo.jpg);
+      background-repeat: no-repeat;
+      margin-left: 40px; }
+      .header .logo a {
+        display: block;
+        padding-top: 110px;
+        text-align: center;
+        line-height: 30px;
+        font-size: 14px;
+        color: #C4A95E; }
+    .header .slogan {
+      width: 60%;
+      background-color: #C4A95E;
+      color: #fff;
+      padding: 10px 40px;
+      font-size: 24px;
+      margin-top: 20px;
+      line-height: 1.8em; }
+    .header .mail {
+      width: 400px;
+      background-color: #fff;
+      background-image: url(../img/mailicon.jpg);
+      background-repeat: no-repeat;
+      background-position: 8px 10px;
+      padding: 10px 40px;
+      margin-top: 20px;
+      font-size: 14px;
+      color: #C4A95E;
+      line-height: 28px; }
+
+  .links, .about {
+    padding: 0 20px;
+    width: 960px; }
+    .links .title, .about .title {
+      font-size: 18px;
+      padding-bottom: 20px; }
+
+  .links {
+    padding-top: 20px; }
+    .links ul {
+      overflow: hidden;
+      padding: 20px 0 30px; }
+      .links ul li {
+        float: left;
+        width: 25%;
+        height: 100px;
+        background-color: #fff;
+        text-align: center; }
+        .links ul li a {
+          display: block; }
+
+  .about .content p {
+    padding-bottom: 20px;
+    font-size: 14px;
+    color: #666; } }
+@media (min-width: 768px) and (max-width: 999px) {
+  .header, .links, .about {
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: #fff; }
+
+  .header {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/banner.jpg);
+    background-size: cover; }
+    .header .logo {
+      width: 88px;
+      height: 110px;
+      padding-bottom: 30px;
+      background-image: url(../img/logo.jpg);
+      background-repeat: no-repeat;
+      margin-left: 40px; }
+      .header .logo a {
+        display: block;
+        padding-top: 110px;
+        text-align: center;
+        line-height: 30px;
+        font-size: 14px;
+        color: #C4A95E; }
+    .header .slogan {
+      width: 540px;
+      background-color: #C4A95E;
+      color: #fff;
+      padding: 10px 40px;
+      font-size: 24px;
+      margin-top: 20px;
+      line-height: 1.8em; }
+    .header .mail {
+      width: 400px;
+      background-color: #fff;
+      background-image: url(../img/mailicon.jpg);
+      background-repeat: no-repeat;
+      background-position: 8px 10px;
+      padding: 10px 40px;
+      margin-top: 20px;
+      font-size: 14px;
+      color: #C4A95E;
+      line-height: 28px; }
+
+  .links, .about {
+    width: 100%; }
+    .links .title, .about .title {
+      padding: 0 20px;
+      font-size: 18px;
+      padding-bottom: 20px; }
+
+  .links {
+    padding-top: 20px; }
+    .links ul {
+      overflow: hidden;
+      padding: 20px 0 30px; }
+      .links ul li {
+        float: left;
+        width: 25%;
+        height: 100px;
+        background-color: #fff;
+        text-align: center; }
+        .links ul li a {
+          display: block; }
+
+  .about .content {
+    padding: 0 20px; }
+    .about .content p {
+      padding-bottom: 20px;
+      font-size: 14px;
+      color: #666; } }
+@media screen and (max-width: 768px) {
+  .header, .links, .about {
+    background-color: #fff; }
+
+  .header {
+    height: 10.6666666667rem;
+    background-image: url(../img/banner.jpg);
+    background-size: 100%; }
+    .header .logo {
+      width: 4.1813333333rem;
+      height: 4.6933333333rem;
+      padding-bottom: 0.8533333333rem;
+      background-image: url(../img/logo.jpg);
+      background-repeat: no-repeat;
+      background-size: 4.1813333333rem 4.6933333333rem;
+      margin-left: 0.8533333333rem; }
+      .header .logo a {
+        display: block;
+        padding-top: 4.6933333333rem;
+        text-align: center;
+        line-height: 0.8533333333rem;
+        font-size: 0.64rem;
+        color: #C4A95E; }
+    .header .slogan {
+      width: 11.3066666667rem;
+      background-color: #C4A95E;
+      color: #fff;
+      padding: 0.2133333333rem 0.8533333333rem;
+      font-size: 0.512rem;
+      margin-top: 0.4266666667rem;
+      line-height: 1.5em; }
+    .header .mail {
+      width: 8.5333333333rem;
+      background-color: #fff;
+      background-image: url(../img/mailicon.jpg);
+      background-size: 0.5973333333rem;
+      background-repeat: no-repeat;
+      background-position: 0.1706666667rem center;
+      padding: 0.2133333333rem 0.8533333333rem;
+      margin-top: 0.4266666667rem;
+      font-size: 0.2986666667rem;
+      color: #C4A95E;
+      line-height: 0.5973333333rem; }
+
+  .links, .about {
+    width: 100%; }
+    .links .title, .about .title {
+      padding: 0 0.4266666667rem;
+      font-size: 0.384rem;
+      padding-bottom: 0.4266666667rem; }
+
+  .links {
+    padding-top: 0.4266666667rem; }
+    .links ul {
+      overflow: hidden;
+      padding: 0.4266666667rem 0 0.64rem; }
+      .links ul li {
+        float: left;
+        width: 25%;
+        height: 100%;
+        background-color: #fff;
+        text-align: center; }
+        .links ul li img {
+          width: 100%; }
+        .links ul li a {
+          display: block; }
+
+  .about .content {
+    padding: 0 0.4266666667rem; }
+    .about .content p {
+      padding-bottom: 0.4266666667rem;
+      font-size: 0.2986666667rem;
+      color: #666; } }

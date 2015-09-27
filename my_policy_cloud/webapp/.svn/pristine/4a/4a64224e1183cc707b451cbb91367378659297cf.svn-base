@@ -1,0 +1,44 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: yutao
+  Date: 2015/8/22
+  Time: 17:34
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
+<div class="title">修改密码</div>
+
+<p><span>旧密码：</span> <input type="password" id="oldpwd"/></p>
+
+<p><span>新密码：</span><input type="password" id="newpwd"/></p>
+
+<p><span>再次确认新密码：</span><input type="password" id="newpwdagin"/></p>
+
+<input type="button" id="alterpwd" value="确认修改"/>
+
+
+<script language="javascript">
+
+    $(function () {
+
+        $("#alterpwd").click(function () {
+                    $.post("/mycenter/alterpwd", {
+                        "oldpwd": $("#oldpwd").val(),
+                        "newpwd": $("#newpwd").val(),
+                        "newpwdagin": $("#newpwdagin").val()
+                    }, function (msg) {
+                        if (msg.success) {
+                            alert(msg.msg)
+
+                        }
+
+
+                    })
+                }
+        )
+
+    })
+
+
+</script>

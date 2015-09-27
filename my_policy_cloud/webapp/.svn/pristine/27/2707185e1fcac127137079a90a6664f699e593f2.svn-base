@@ -1,0 +1,20 @@
+$(function () {
+    $("#loginBtn").click(function () {
+        var ajaxOptions = {
+            url: "/api/userLogin",
+            type: 'post',
+            dataType: 'json',
+            timeout: 100000,
+            cache: false,
+            success: function (responseJson) {
+                if (responseJson.success) {
+                    location.href = "/index";
+                } else {
+                    alert(responseJson.msg)
+                }
+            }
+        };
+        $("#loginForm").ajaxSubmit(ajaxOptions);
+    });
+
+});

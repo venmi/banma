@@ -1,0 +1,1 @@
+$(function(){$("#saveBtn").click(function(){var e={url:"/shareperson",type:"post",dataType:"json",timeout:1e5,cache:!1,success:function(e){e.success?location.href="/myshareperson":alert(e.msg)}};$("#savePersonForm").ajaxSubmit(e)}),$("#cancelBtn").click(function(){location.href="/myshareperson"})});

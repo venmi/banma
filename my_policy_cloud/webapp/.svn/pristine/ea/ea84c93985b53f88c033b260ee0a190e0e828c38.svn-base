@@ -1,0 +1,21 @@
+$(function () {
+    $("#submit").click(
+        function () {
+            var ajaxOptions = {
+                url: "/handleclaims/apply/submit",
+                type: 'post',
+                dataType: 'json',
+                timeout: 100000,
+                cache: false,
+                success: function (responseJson) {
+                    if (responseJson.success) {
+                        alert('good');
+                    }
+                }
+            };
+            $("#userapply").ajaxSubmit(ajaxOptions);
+        }
+    );
+});
+
+

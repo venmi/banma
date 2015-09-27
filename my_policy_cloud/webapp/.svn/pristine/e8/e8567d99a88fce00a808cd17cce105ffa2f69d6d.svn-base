@@ -1,0 +1,511 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: yutao
+  Date: 2015/8/26
+  Time: 19:12
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn"%>
+<%@ page import="com.bm.insurance.cloud.util.Constant" %>
+<%@ page import="com.bm.insurance.personal.cloud.util.SessionUtil" %>
+<%@ page import="com.bm.insurance.cloud.orm.entity.PersonalUserAccount" %>
+<html>
+<head>
+    <link href="<%=request.getContextPath()%>/resources/js/date/jquery-ui-1.8.4.custom.css" rel="stylesheet"
+          type="text/css"/>
+    <jsp:include page="common/header.jsp"/>
+</head>
+<body>
+<!-- 右侧浮动区 -->
+<jsp:include page="common/floatSite.jsp"/>
+
+<!-- 顶头菜单区 -->
+<jsp:include page="common/topmenu.jsp"/>
+
+<!-- 头部nav区 -->
+<jsp:include page="common/mypolicynav.jsp"/>
+<form id="userapply">
+    <div class="container">
+
+        <input type="hidden" name="eid" value="${eid}">
+        <input type="hidden" name="uid" value="${uid}">
+
+        <div class="settlement_of_claims">
+            <div class="title">请认真填写理赔申请表</div>
+            <div class="tag">基本信息</div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="input-group">
+                        <span class="input-group-addon">投保企业</span>
+                        <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1"
+                               value="${user.ename}"></div>
+                </div>
+                <div class="col-md-4">
+                    <div class="input-group">
+                        <span class="input-group-addon" id="">申报人</span>
+                        <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1"
+                               name="userName"
+                               value="${user.pname}"></div>
+                </div>
+                <div class="col-md-4">
+                    <div class="input-group">
+                        <span class="input-group-addon">证件号</span>
+                        <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1"
+                               name="userIdNum"
+                               value="${user.idCard}"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="my_information">
+                    <div class="col-md-12">
+                        <label>
+                            <input type="checkbox" id="show" name="isself" value="1">出险人不是报案人本人</label>
+                    </div>
+                    <div id="hide" style="display: none;">
+                        <div class="col-md-12">
+                            <div class="other_people">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="danger_title">
+                                            <span>出险人名称</span>
+                                            <input type="text" name="nameinsurer"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="input-group">
+                                            <span class="input-group-addon" id="basic-">证件号</span>
+                                            <input type="text" class="form-control" placeholder=""
+                                                   aria-describedby="basic-addon1" name="idnum"></div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="input-group">
+                                            <span class="input-group-addon">性别</span>
+                                            <select type="text" placeholder=""
+                                                    aria-describedby="basic-addon1" class="form-control"
+                                                    name="sex">
+                                                <option value="1"> 男</option>
+                                                <option value="2"> 女</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="input-group">
+                                            <span class="input-group-addon">年龄</span>
+                                            <input type="text" class="form-control"
+                                                   aria-describedby="basic-addon1" name="age"></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="input-group">
+                                            <span class="input-group-addon" id="career">职业</span>
+                                            <input type="text" class="form-control" placeholder="" name="career"
+                                                   aria-describedby="basic-addon1"></div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="input-group">
+                                            <span class="input-group-addon" id="mobile">联系电话</span>
+                                            <input type="text" class="form-control" placeholder=""
+                                                   aria-describedby="basic-addon1" name="mobile"></div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="input-group">
+                                            <span class="input-group-addon">与报案人关系</span>
+
+                                            <select type="text" placeholder=""
+                                                    aria-describedby="basic-addon1" class="form-control"
+                                                    name="relationship"
+                                                    id="relationship">
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="matters">
+                    <div class="col-md-12">
+                        <div class="tag">申请事项</div>
+                        <c:forEach var="rbInfoVO" items="${rbInfoVOs}" varStatus="status">
+                            <c:if test="${status.count==1|| status.count%4==1}">
+                                  <div class="row">
+                            </c:if>
+                            <div class="col-md-3">
+                                <label>
+                                    <input type="checkbox" id="${rbInfoVO.id}" value="${rbInfoVO.id}" name="reporttype">${rbInfoVO.name}</label>
+                            </div>
+                            <c:if test="${status.count%4==0 || (rbInfoVOs)!= null && fn:length(rbInfoVOs)==status.count }">
+                                </div>
+                            </c:if>
+                        </c:forEach>
+                    </div>
+                </div>
+            </div>
+            <div class="tag">出险类型：</div>
+            <div class="row">
+                <div class="type">
+                    <div class="col-md-4">
+                        <label>
+                            <input type="checkbox" value="1" name="dangertype">意外</label>
+                    </div>
+                    <div class="col-md-4">
+                        <label>
+                            <input type="checkbox" value="2" name="dangertype">疾病</label>
+                    </div>
+                    <div class="col-md-4">
+                        <label>
+                            <input type="checkbox" value="3" name="dangertype">其他</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <span class="input-group-addon">申报总数</span>
+                        <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1"
+                               name="applyprice"></div>
+                </div>
+            </div>
+            <div class="tag">就诊医院</div>
+            <div class="row">
+                <table border=0 id="TbData">
+                    <tr id="one_tr" class="CaseRow">
+                        <td style="width: 22%">
+                            <div class="col-md-12">
+                                <div class="input-group">
+                                    <div class="input-group date form_date " data-date="" id="form_date"
+                                            >
+                                        <span class="input-group-addon" id="basic-addon1">就诊/时间日期</span>
+                                        <input class="form-control" size="16" id="ss_date"
+                                               name="accidentDataInfos[0].datavisit" type="text" value=""
+                                               onfocus="setCurDate(this)" readonly/>
+                                                     <%-- <span class="input-group-addon">
+                                                      	<span class="glyphicon  glyphicon-remove"></span>
+                                                      </span>
+                                                      <span class="input-group-addon">
+                                                      	<span class="glyphicon glyphicon-calendar"></span>
+                                                      </span>--%>
+                                    </div>
+                                    <%--<input type="hidden" name="accidentDataInfos[0].datavisit" id="datavisit"/>--%>
+                                </div>
+                            </div>
+                        </td>
+                        <td style="width: 25%">
+                            <div class="col-md-12">
+                                <div class="input-group pull-right">
+                                    <span class="input-group-addon">就诊医院</span>
+                                    <input type="text" class="form-control" placeholder="" id="ddd"
+                                           aria-describedby="basic-addon1"
+                                           name="accidentDataInfos[0].hospital">
+                                </div>
+                            </div>
+                        </td>
+                        <td style="width: 20%">
+                            <div class="col-md-10">
+                                <div class="input-group">
+                                    <span class="input-group-addon">申报金额</span>
+                                    <input type="text" class="form-control" placeholder=""
+                                           aria-describedby="basic-addon1"
+                                           name="accidentDataInfos[0].amountdeclared"></div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="col-md-10">
+                                <h5>疾病/事故经过<a onclick="remRow(this)">移除</a></h5><textarea class="form-control"
+                                                                                          name="accidentDataInfos[0].reasonsvisit"></textarea>
+                            </div>
+                        <td>
+                    </tr>
+                </table>
+                <input type="button" value="增加" id="addexperience" onclick="AddRow()">
+            </div>
+            <script type="text/javascript">
+                function remRow(obj) {
+                    var vNum = $("#TbData tr").filter(".CaseRow").size();//表格有多少个数据行;
+                    if (vNum == 1) {
+                        alert('请至少留一行');
+                        return;
+                    }
+                    // var vbtnDel=$(obj);//得到点击的按钮对象
+                    //alert();
+                    //var vTr=vbtnDel.parent("td").parent("tr");//得到父tr对象;
+                    //alert($(this).parents("tr").attr("id"));
+                    var vtr = $(obj).parent().parent().parent().parent();
+                    if (vtr.attr("id") == "one_tr") {
+                        alert('第一行不能删除!'); //第一行是克隆的基础，不能删除
+                        return;
+                    } else {
+                        vtr.remove();
+                    }
+                }
+                function AddRow() {
+                    var vTb = $("#TbData");//得到表格ID=TbData的jquery对象
+                    //所有的数据行有一个.CaseRow的Class,得到数据行的大小
+                    var size=$("#TbData tr").filter(".CaseRow").size();
+                    var vNum = size + 1;//表格有多少个数据行
+                    var vTr = $("#TbData #one_tr"); //得到表格中的第一行数据 v
+                    var vTrClone = vTr.clone(true);//创建第一行的副本对象vTrClone
+                    cleanAttr(vTrClone,size);
+                    vTrClone[0].id = "trDataRow" + vNum;//設置 第一個Id為當前獲取索引；防止重複添加多個ID為trDataRow1的數據行；一次添加一個；
+
+                    var curdate = vTrClone.find("div #form_date");//.find("#ss_date");
+                    var id_d = "ss_date" + vNum;
+                    curdate.attr("id", "formdate" + vNum);
+//                    curdate.find("#ss_date").attr("id",id_d);
+                    curdate.html(getDateInput(id_d,size));
+                    vTrClone.appendTo(vTb);//把副本单元格对象添加到表格下方
+                }
+
+                function cleanAttr(vTrClone,index) {
+                    var inputs = vTrClone.find("input");
+                    var rexts = vTrClone.find("textarea");
+                    //alert(vTrClone.find("div #form_date").attr("onclick"));
+                    for (var i = 0; i < inputs.length; i++) {
+                        var input = $(inputs[i]);
+                        var name = input.attr("name").replace("0", index);
+                        input.attr("name", name);
+                    }
+
+                    for (var i = 0; i < rexts.length; i++) {
+                        var rext = $(rexts[i]);
+                        var name = rext.attr("name").replace("0", index);
+                        rext.attr("name", name);
+                    }
+
+                    inputs.val("");
+                    rexts.val("");
+                }
+                function getDateInput(id,index) {
+                    var span = "<span class='input-group-addon' id='basic-addon1'>就诊/时间日期</span>"
+                    var inputstr = "<input class='form-control' name='accidentDataInfos["+index+"].datavisit'  onfocus='setCurDate(this)' size='16' id='" + id + "' type='text' value='' readonly />";
+                    var span1 = "<span class='input-group-addon'>"
+                            + "<span class='glyphicon  glyphicon-remove'></span>"
+                            + " </span>" + "<span class='input-group-addon'>" + "<span class='glyphicon glyphicon-calendar'></span>"
+                            + "</span>";
+                    return span + inputstr ;
+                }
+
+
+                function setCurDate(obj) {
+                    //alert(id);
+                    $.datepicker.regional["zh-CN"] = {
+                        closeText: "关闭",
+                        prevText: "&#x3c;上月",
+                        nextText: "下月&#x3e;",
+                        currentText: "今天",
+                        monthNames: ["一月", "二月", "三月", "四月", "五月", "六月", "七月", "八月", "九月", "十月", "十一月", "十二月"],
+                        monthNamesShort: ["一", "二", "三", "四", "五", "六", "七", "八", "九", "十", "十一", "十二"],
+                        dayNames: ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"],
+                        dayNamesShort: ["周日", "周一", "周二", "周三", "周四", "周五", "周六"],
+                        dayNamesMin: ["日", "一", "二", "三", "四", "五", "六"],
+                        weekHeader: "周",
+                        dateFormat: "yy-mm-dd",
+                        firstDay: 1,
+                        isRTL: !1,
+                        showMonthAfterYear: !0,
+                        yearSuffix: "年"
+                    }
+                    $.datepicker.setDefaults($.datepicker.regional["zh-CN"]);
+                    document.execCommand("BackgroundImageCache", false, true);
+                    //$.datepicker.regional['zh-CN'];
+                    $(obj).datepicker({
+                        changeMonth: true,
+                        showOtherMonths: true,
+                        selectOtherMonths: true
+                    });
+                    //$(obj).datepicker({ showAnim: ''; });
+                }
+
+            </script>
+            <%--<div class="row">
+
+            </div>--%>
+
+            <div class="row">
+                <div class="accident">
+                    <div class="col-md-12">
+
+                        <label>
+                            <input type="checkbox">投保有其他保险公司险种，或就本次事故向其他保险公司或单位索赔（如有，请注明公司名称、保单号及获赔金额）</label>
+
+                        <div class="card">
+                            <p>
+                                <span>理赔转账银行：</span>
+                                <input type="text" name="bankname" value="${bank.openaccount}">
+
+                            </p>
+
+                            <p>
+                                <span>领款账户：</span>
+                                <input type="text" name="payaccount" value="${bank.bankcardnum}">
+                            </p>
+
+                            <p>
+                                <span>开户名：</span>
+                                <input type="text" name="openaccountname" value="${bank.openaccountname}">
+                            </p>
+                        </div>
+                        <h5>备注</h5>
+                        <textarea class="form-control" name="comment"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="tag">单据上传</div>
+                    <input type="file" id="sybd" name="bin" multiple>
+
+                    <div class="file_img_cen" id="syimgs">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <div class="button">
+                                <input type="button" id="submit" value="确认报案">
+                            </div>
+                        </div>
+                        <div class="col-xs-4">
+                            <div class="button">
+                                <a class="cancel" href="#">取消</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+</body>
+<html>
+<!-- 底部 -->
+<jsp:include page="common/footer.jsp"/>
+
+
+<script src="<%=request.getContextPath()%>/resources/js/jquery-migrate-1.2.1.js"></script>
+<script src="<%=request.getContextPath()%>/resources/js/date/jquery-1.4.2.min.js" type="text/javascript"></script>
+<script src="<%=request.getContextPath()%>/resources/js/date/jquery-ui-1.8.4.custom.min.js"
+        type="text/javascript"></script>
+<script type="text/javascript"
+        src="<%=request.getContextPath()%>/resources/js/bootstrap-datetimepicker.js"></script>
+<script type="text/javascript"
+        src="<%=request.getContextPath()%>/resources/js/bootstrap-datetimepicker.zh-CN.js"></script>
+<script type="text/javascript"
+        src="<%=request.getContextPath()%>/resources/js/bootstrap-datetimepicker.fr.js"></script>
+<script type="text/javascript"
+        src="<%=request.getContextPath()%>/resources/js/jquery.form.js"></script>
+<%--<script src="<%=request.getContextPath()%>/resources/myjs/handleclaims.js"></script>--%>
+<script>
+    $(function () {
+        // alert('111')
+        var a = document.getElementById('show');
+        var b = document.getElementById('hide');
+        b.style.display = 'none'
+        a.onclick = function () {
+            //alert('222')
+            if (b.style.display != 'block') {
+                b.style.display = 'block';
+            } else {
+                b.style.display = 'none'
+            }
+        }
+    });
+
+
+    $('.form_datetime').datetimepicker({ //日历的插件
+        language: 'zh-CNzh-CN',
+        weekStart: 1,
+        todayBtn: 1,
+        autoclose: 1,
+        todayHighlight: 1,
+        startView: 2,
+        forceParse: 0,
+        showMeridian: 1
+    });
+    function dateFomrtFun(sv) {
+        alert($(sv).attr("id"));
+        $(sv).datetimepicker({
+            language: 'zh-CN',
+            weekStart: 1,
+            todayBtn: 1,
+            autoclose: 1,
+            todayHighlight: 1,
+            startView: 2,
+            minView: 2,
+            forceParse: 0
+        });
+    }
+    $('.form_time').datetimepicker({
+        language: 'zh-CN',
+        weekStart: 1,
+        todayBtn: 1,
+        autoclose: 1,
+        todayHighlight: 1,
+        startView: 1,
+        minView: 0,
+        maxView: 1,
+        forceParse: 0
+    });
+
+    //function submitCurOk () {
+    //    alert(1111);
+    ////    $.ajax({
+    ////        type: 'POST',
+    ////        url: '/handleclaims/apply/submit',
+    ////        data: null,
+    ////        success: function (responseJson) {
+    ////            if (responseJson.success) {
+    ////                alert('good');
+    ////            }
+    ////        }
+    ////    });
+    //        var ajaxOptions = {
+    //        url: "/handleclaims/apply/submit",
+    //        type: 'post',
+    //        dataType: 'json',
+    //        timeout: 100000,
+    //        cache: false,
+    //        success: function (responseJson) {
+    //            if (responseJson.success) {
+    //                alert('good');
+    //            }
+    //        }
+    //    };
+    //    $("#userapply").ajaxSubmit(ajaxOptions);
+    ////
+    ////    $.post("/handleclaims/apply/submit", function(data) {
+    ////        alert(data.success)
+    ////    });
+    //}
+    $(function () {
+        $("#submit").click(
+                function () {
+                    alert(11111);
+                    var ajaxOptions = {
+                        url: "/handleclaims/apply/submit",
+                        type: 'post',
+                        dataType: 'json',
+                        timeout: 100000,
+                        cache: false,
+                        success: function (responseJson) {
+                            if (responseJson.success) {
+                                alert('good');
+                            }
+                        }
+                    };
+                    $("#userapply").ajaxSubmit(ajaxOptions);
+                }
+        );
+    });
+
+</script>

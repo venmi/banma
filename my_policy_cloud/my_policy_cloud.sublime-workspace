@@ -1,0 +1,613 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"cu",
+				"cursor"
+			],
+			[
+				"b",
+				"bold"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"im",
+				"@import	@import url(${0});"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"impr",
+				"@import	@import url(${0});"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"op",
+				"op+	opacity: $1;\nfilter: alpha(opacity=$2);"
+			],
+			[
+				"m",
+				"min-width"
+			],
+			[
+				"mo",
+				"modify_password.html"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"ta",
+				"target	Attr"
+			],
+			[
+				"add",
+				"addClass	.addClass()"
+			],
+			[
+				"bloc",
+				"block"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"pol",
+				"policy_personal.html"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"co",
+				"common-min.js"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"whi",
+				"width"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"banner",
+				"banner.png	w:1280 h:380"
+			],
+			[
+				"f",
+				"fixed"
+			],
+			[
+				"img",
+				"img/"
+			],
+			[
+				"style",
+				"style	Attr"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"ma",
+				"max-height"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"margint",
+				"margin-left"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"r",
+				"repeat-x"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"fun",
+				"function"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"tag",
+				"Tag: Auto-Format Tags on Document"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"a",
+				"Autoprefix CSS"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/dctxf/cloud/coding/my_policy_cloud/webapp/html/forget_password.html",
+		"/Users/dctxf/cloud/coding/my_policy_cloud/webapp/resources/css/policy.scss",
+		"/Users/dctxf/cloud/coding/my_policy_cloud/index.html",
+		"/Users/dctxf/cloud/coding/dreamui/dreamui.sublime-workspace",
+		"/Users/dctxf/cloud/coding/my_policy_cloud/web/html/index.html",
+		"/Users/dctxf/cloud/coding/my_policy_cloud/web/html/404.html",
+		"/Users/dctxf/cloud/coding/my_policy_cloud/web/resources/css/policy.scss",
+		"/Users/dctxf/cloud/coding/my_policy_cloud/web/html/edit_share_member.html",
+		"/Users/dctxf/cloud/coding/my_policy_cloud/web/html/my_policy_cloud.html",
+		"/Users/dctxf/cloud/coding/my_policy_cloud/web/html/policy_company.html",
+		"/Users/dctxf/cloud/coding/my_policy_cloud/web/html/news_detail.html",
+		"/Users/dctxf/cloud/coding/dctui/index.html",
+		"/Users/dctxf/cloud/coding/my_policy_cloud/web/html/my_activity.html",
+		"/Users/dctxf/cloud/coding/my_policy_cloud/web/html/demo.html",
+		"/Users/dctxf/cloud/coding/my_policy_cloud/web/html/hlep_center.html",
+		"/Users/dctxf/cloud/coding/my_policy_cloud/web/html/forget_password.html",
+		"/Users/dctxf/cloud/coding/my_policy_cloud/web/html/edit_photo.html",
+		"/Users/dctxf/cloud/coding/my_policy_cloud/web/html/document_download.html",
+		"/Users/dctxf/cloud/coding/my_policy_cloud/web/html/claims_processing_search.html",
+		"/Users/dctxf/cloud/coding/my_policy_cloud/web/html/add_share_member.html",
+		"/Users/dctxf/cloud/coding/my_policy_cloud/web/html/activity.html",
+		"/Users/dctxf/cloud/coding/my_policy_cloud/web/html/login.html",
+		"/Users/dctxf/cloud/coding/my_policy_cloud/web/html/modify_date.html",
+		"/Users/dctxf/cloud/coding/my_policy_cloud/web/html/modify_password.html",
+		"/Users/dctxf/cloud/coding/my_policy_cloud/web/html/my_tuan.html",
+		"/Users/dctxf/cloud/coding/my_policy_cloud/web/html/news_list.html",
+		"/Users/dctxf/cloud/coding/my_policy_cloud/web/html/perfect_data.html",
+		"/Users/dctxf/cloud/coding/my_policy_cloud/web/html/policy_personal.html",
+		"/Users/dctxf/cloud/coding/my_policy_cloud/web/html/product.html",
+		"/Users/dctxf/cloud/coding/my_policy_cloud/web/html/regist.html",
+		"/Users/dctxf/cloud/coding/my_policy_cloud/web/html/reset_password.html",
+		"/Users/dctxf/cloud/coding/my_policy_cloud/web/html/settlement_of_claims.html",
+		"/Users/dctxf/cloud/coding/my_policy_cloud/web/html/share_member.html",
+		"/Users/dctxf/cloud/coding/my_policy_cloud/web/html/share_member_detail.html",
+		"/Users/dctxf/cloud/coding/my_policy_cloud/web/html/table.html",
+		"/Users/dctxf/cloud/coding/my_policy_cloud/web/html/upload_policy.html",
+		"/Users/dctxf/cloud/coding/my_policy_cloud/web/html/user_center.html",
+		"/Users/dctxf/cloud/coding/my_policy_cloud/web/html/user_messages.html",
+		"/Users/dctxf/cloud/coding/my_policy_cloud/web/html/validation_success.html",
+		"/Users/dctxf/cloud/coding/dctui/sass/layout.scss",
+		"/Users/dctxf/cloud/coding/dctui/sass/dctui.scss",
+		"/Users/dctxf/cloud/coding/dctui/sass/nav.scss",
+		"/Users/dctxf/cloud/coding/dctui/sass/reset.scss",
+		"/Users/dctxf/cloud/coding/dctui/css/dctui.css",
+		"/Users/dctxf/cloud/coding/dctui/a.scss",
+		"/Users/dctxf/cloud/coding/dctui/b.scss",
+		"/Users/dctxf/cloud/coding/dctui/css/b.css",
+		"/Users/dctxf/cloud/coding/my_policy_cloud/web/resources/js/common.js",
+		"/Users/dctxf/Downloads/Ymy_policy_cloud/index.html",
+		"/Users/dctxf/Library/Application Support/Sublime Text 3/Packages/Tag/Tag Package.sublime-settings",
+		"/Users/dctxf/Desktop/Untitled.css",
+		"/Users/dctxf/cloud/coding/my_policy_cloud/css/policy.scss",
+		"/Users/dctxf/Library/Application Support/Sublime Text 3/Packages/User/Autoprefixer.sublime-settings",
+		"/Users/dctxf/Library/Application Support/Sublime Text 3/Packages/Autoprefixer/Autoprefixer.sublime-settings",
+		"/Users/dctxf/cloud/coding/my_policy_cloud/README.md",
+		"/Users/dctxf/cloud/github/my_policy_cloud/js/common.js",
+		"/Users/dctxf/cloud/github/my_policy_cloud/demo.html",
+		"/Users/dctxf/Desktop/aa/index.html",
+		"/Users/dctxf/cloud/github/my_policy_cloud/index.html",
+		"/Users/dctxf/cloud/github/my_policy_cloud/css/policy.scss",
+		"/Users/dctxf/Desktop/aa/style.css",
+		"/Users/dctxf/cloud/github/my_policy_cloud/css/policy.css",
+		"/Users/dctxf/Desktop/home/index.html",
+		"/Users/dctxf/Desktop/home/company_user.html",
+		"/Users/dctxf/Desktop/home/insurance_management.html",
+		"/Users/dctxf/Desktop/home/add_insurance.html",
+		"/Users/dctxf/Desktop/home/dome.html",
+		"/Users/dctxf/Desktop/home/edit_pop-up_box.html",
+		"/Users/dctxf/Desktop/home/insurance_contract.html",
+		"/Users/dctxf/Desktop/home/personnel_change_notice.html",
+		"/Users/dctxf/Desktop/home/personnel_changes_notice_details.html",
+		"/Users/dctxf/cloud/github/policy_company_admin/css/style.css",
+		"/Users/dctxf/cloud/github/policy_company_admin/index.html",
+		"/Users/dctxf/cloud/github/policy_company_admin/login.html",
+		"/Users/dctxf/cloud/github/policy_comingsoon/index.html",
+		"/Users/dctxf/cloud/github/policy_comingsoon/css/style.css",
+		"/Users/dctxf/Desktop/首页/user.html",
+		"/Users/dctxf/Desktop/首页/resources/plugin/Time/js/bootstrap-datetimepicker.fr.js",
+		"/Users/dctxf/Desktop/首页/resources/plugin/Time/js/bootstrap-datetimepicker.zh-CN.js",
+		"/Users/dctxf/Desktop/首页/resources/plugin/Time/js/bootstrap-datetimepicker.js",
+		"/Users/dctxf/Desktop/index.html",
+		"/Users/dctxf/Desktop/demo/demo.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"a",
+			"编",
+			"编辑",
+			"cursor",
+			"claim_",
+			"//",
+			"pagination_box",
+			"//",
+			"//yang",
+			"comments",
+			"//cdn.bootcss.com/jquery/1.11.3/",
+			"//cdn.bootcss.com/respond.js/1.4.2/",
+			"//cdn.bootcss.com/html5shiv/3.7.2/",
+			"<div class=\"top\">\n    <div class=\"container\">\n      <div class=\"back_to_home pull-left\">\n        <a href=\"index.html\">\n          <i class=\"iconfont\">&#xe600;</i>\n          保单云首页\n        </a>\n      </div>\n      <div class=\"fast_menu pull-right\">\n        <div class=\"login_register pull-left\">\n          <!-- <a href=\"login.html\">登陆</a>\n        |\n        <a href=\"register.html\">注册</a>\n        -->\n            欢迎您\n        <a href=\"user_center.html\">疯狂的小保</a>\n        <span>\n          <a href=\"login.html\">\n            <i class=\"iconfont\">&#xe608;</i>\n            退出登录\n          </a>\n        </span>\n      </div>\n      <div class=\"integral_policy pull-left collapse navbar-collapse\">\n        <i class=\"iconfont\">&#xe601;</i>\n        <a href=\"integral.html\"> <em>积分</em> <b>1213</b>\n        </a>\n        <i class=\"iconfont\">&#xe602;</i>\n        <a href=\"policy.html\"> <em>保单</em> <b>12</b>\n        </a>\n      </div>\n      <div class=\"messages pull-left\">\n        <a href=\"messages.html\">\n          消息\n          <span>3</span>\n        </a>\n      </div>\n    </div>\n  </div>\n</div>",
+			"//",
+			"accident",
+			"show",
+			"addon1",
+			"format",
+			"null",
+			"change",
+			"preservation",
+			"validation_success",
+			".upload_policy",
+			"yang",
+			"tag",
+			"relationship",
+			"share_member_detail",
+			";\n",
+			"border_radius",
+			"border_color",
+			"fr",
+			"language",
+			"dates"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"../resources/js/",
+			"../resources/",
+			"<div class=\"top\">\n    <div class=\"container\">\n      <div class=\"back_to_home pull-left\">\n        <a href=\"index.html\">\n          <i class=\"iconfont\">&#xe600;</i>\n          保单云首页\n        </a>\n      </div>\n      <div class=\"fast_menu pull-right\">\n        <div class=\"login_register pull-left\">\n          <!-- <a href=\"login.html\">登陆</a>\n        |\n        <a href=\"register.html\">注册</a>\n        -->\n            欢迎您\n        <a href=\"user_center.html\">疯狂的小保</a>\n        <span>\n          <a href=\"login.html\">\n            <i class=\"iconfont\">&#xe608;</i> <em>退出登录</em>\n          </a>\n        </span>\n      </div>\n      <div class=\"integral_policy pull-left collapse navbar-collapse\">\n        <i class=\"iconfont\">&#xe601;</i>\n        <a href=\"integral.html\"> <em>积分</em> <b>1213</b>\n        </a>\n        <i class=\"iconfont\">&#xe602;</i>\n        <a href=\"policy.html\">\n          <em>保单</em> <b>12</b>\n        </a>\n      </div>\n      <div class=\"messages pull-left\">\n        <a href=\"messages.html\">\n          消息\n          <span>3</span>\n        </a>\n      </div>\n    </div>\n  </div>\n</div>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "my_policy_cloud.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"poli",
+				"web/resources/css/policy.scss"
+			],
+			[
+				"com",
+				"web/html/policy_company.html"
+			],
+			[
+				"pol",
+				"web/resources/css/policy.scss"
+			],
+			[
+				"my",
+				"web/html/my_policy_cloud.html"
+			],
+			[
+				"policy.",
+				"web/resources/css/policy.scss"
+			],
+			[
+				"new",
+				"web/html/news_list.html"
+			],
+			[
+				"policy.s",
+				"web/resources/css/policy.scss"
+			],
+			[
+				"scss",
+				"my_policy_cloud/web/resources/css/policy.scss"
+			],
+			[
+				"ac",
+				"web/html/activity.html"
+			],
+			[
+				"in",
+				"web/html/index.html"
+			],
+			[
+				"my_policy_cloud",
+				"web/html/my_policy_cloud.html"
+			],
+			[
+				"down",
+				"web/html/document_download.html"
+			],
+			[
+				"pass",
+				"web/html/modify_password.html"
+			],
+			[
+				"up",
+				"web/html/upload_policy.html"
+			],
+			[
+				"claims_processing_search",
+				"web/html/claims_processing_search.html"
+			],
+			[
+				"settlement_of_claims",
+				"web/html/settlement_of_claims.html"
+			],
+			[
+				"upload_policy",
+				"web/html/upload_policy.html"
+			],
+			[
+				"modify_password",
+				"web/html/modify_password.html"
+			],
+			[
+				"user",
+				"web/html/user_messages.html"
+			],
+			[
+				"use",
+				"web/html/user_center.html"
+			],
+			[
+				"modify_date",
+				"web/html/modify_date.html"
+			],
+			[
+				"shar",
+				"web/html/share_member_detail.html"
+			],
+			[
+				"policy_",
+				"web/html/policy_company.html"
+			],
+			[
+				"sha",
+				"web/html/share_member.html"
+			],
+			[
+				"document_download",
+				"web/html/document_download.html"
+			],
+			[
+				"ind",
+				"index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 243.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

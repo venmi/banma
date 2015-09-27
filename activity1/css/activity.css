@@ -1,0 +1,76 @@
+body {
+  background-color: #fff; }
+
+.banner {
+  background-color: #fff2ea; }
+  .banner .pic {
+    max-width: 1440px;
+    margin: 0 auto; }
+  .banner img {
+    width: 100%; }
+
+.box {
+  background-color: #fff2ea;
+  border-radius: 10px;
+  max-width: 1000px;
+  width: 100%;
+  margin: 30px auto 0 auto;
+  padding: 20px; }
+  .box .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ee5500;
+    text-align: center;
+    padding-bottom: 20px; }
+  .box p {
+    color: #333;
+    text-align: center; }
+  .box .center-red {
+    text-align: center;
+    color: #ee5500; }
+  .box .award-pic {
+    text-align: center;
+    margin: 10px 0; }
+  .box .award-name {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ee5500; }
+  .box .award-info {
+    text-align: center;
+    border-radius: 40px;
+    background-color: #ee5500;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    margin-top: 10px; }
+  .box .process {
+    padding: 20px 0; }
+    .box .process .tit {
+      font-size: 14px;
+      font-weight: bold;
+      color: #ee5500;
+      margin-bottom: 10px;
+      text-align: center; }
+    .box .process li.text {
+      background-color: #f9d9c5;
+      padding: 10px 20px;
+      border-radius: 400px;
+      line-height: 1.8em;
+      font-size: 14px; }
+    .box .process li.li-bg {
+      height: 15px;
+      background-image: url(../img/li_bg.png);
+      background-repeat: no-repeat;
+      background-position: center; }
+  .box .qrcode {
+    text-align: center;
+    padding: 20px 0; }
+    .box .qrcode .tit {
+      font-size: 14px;
+      font-weight: bold;
+      color: #ee5500;
+      margin-bottom: 10px;
+      text-align: center; }
+    .box .qrcode .pic img {
+      width: 200px; }

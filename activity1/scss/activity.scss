@@ -1,0 +1,105 @@
+$bg: #fff;
+$font-size: 12px;
+$box-bg: #fff2ea;
+$white: #fff;
+$black: #333;
+$red: #ee5500;
+$process-bg: #f9d9c5;
+
+body {
+	background-color: $bg;
+}
+.banner {
+	background-color: $box-bg;
+	.pic {
+		max-width: 1440px;
+		margin: 0 auto;
+	}
+	img {
+		width: 100%;
+	}
+}
+.box {
+	background-color: $box-bg;
+	border-radius: 10px;
+	max-width: 1000px;
+	width: 100%;
+	margin: 30px auto 0 auto;
+	padding: 20px;
+
+	.title {
+		font-size: 24px;
+		font-weight: bold;
+		color: $red;
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	p {
+		color: $black;
+		text-align: center;
+	}
+	.center-red {
+		text-align: center;
+		color: $red;
+	}
+	.award-pic {
+		text-align: center;
+		margin: 10px 0;
+	}
+	.award-name {
+		text-align: center;
+		font-size: 24px;
+		font-weight: bold;
+		color: $red;
+	}
+	.award-info {
+		text-align: center;
+		border-radius: 40px;
+		background-color: $red;
+		height: 40px;
+		line-height: 40px;
+		color: $white;
+		margin-top: 10px;
+	}
+	.process {
+		padding: 20px 0;
+
+		.tit {
+			font-size: 14px;
+			font-weight: bold;
+			color: $red;
+			margin-bottom: 10px;
+			text-align: center;
+		}
+		li.text {
+			background-color: $process-bg;
+			padding: 10px 20px;
+			border-radius: 400px;
+			line-height: 1.8em;
+			font-size: 14px;
+		}
+		li.li-bg {
+			height: 15px;
+			background-image: url(../img/li_bg.png);
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+	}
+	.qrcode {
+		text-align: center;
+		padding: 20px 0;
+		
+		.tit {
+			font-size: 14px;
+			font-weight: bold;
+			color: $red;
+			margin-bottom: 10px;
+			text-align: center;
+		}
+		.pic {
+			img {
+				width: 200px;
+			}
+		}
+	}
+}

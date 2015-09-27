@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=9" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport"content="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no">
+  <title>精彩活动-保单云</title>
+  <!-- Bootstrap -->
+  <link href="../resources/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../resources/css/policy.css">
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="../resources/js/html5shiv.min.js"></script>
+  <script src="../resources/js/respond.min.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+  <div class="float_side">
+    <ul>
+      <li class="wechat_qrcode_btn">
+        <a href="#"> <i class="iconfont">&#xe613;</i>
+          <p>服务号</p>
+        </a>
+      </li>
+      <li>
+        <a href="#"> <i class="iconfont">&#xe611;</i>
+          <p>签到</p>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="iconfont">&#xe61c;</i>
+          <p>常见问题</p>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="iconfont">&#xe615;</i>
+          <p>返回顶部</p>
+        </a>
+      </li>
+      <div class="wechat_qrcode">
+        <img src="../resources/images/qrcode.png" height="280" width="280" alt=""></div>
+    </ul>
+  </div>
+  <div class="top">
+    <div class="container">
+      <div class="back_to_home pull-left">
+        <a href="index.html">
+          <i class="iconfont">&#xe600;</i>
+          保单云首页
+        </a>
+      </div>
+      <div class="fast_menu pull-right">
+        <div class="login_register pull-left">
+          <!-- <a href="login.html">登陆</a>
+        |
+        <a href="register.html">注册</a>
+        -->
+            欢迎您
+        <a href="user_center.html">疯狂的小保</a>
+        <span>
+          <a href="login.html">
+            <i class="iconfont">&#xe608;</i> <em>退出登录</em>
+          </a>
+        </span>
+      </div>
+      <div class="integral_policy pull-left collapse navbar-collapse">
+        <i class="iconfont">&#xe601;</i>
+        <a href="integral.html"> <em>积分</em> <b>1213</b>
+        </a>
+        <i class="iconfont">&#xe602;</i>
+        <a href="policy.html">
+          <em>保单</em> <b>12</b>
+        </a>
+      </div>
+      <div class="messages pull-left">
+        <a href="messages.html">
+          消息
+          <span>3</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<nav class="navbar navbar-default">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">切换导航</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="logo">
+        <div class="pic">
+          <img src="../resources/images/logo.png" alt=""></div>
+        <div class="slogan">最实用的保险服务平台</div>
+      </div>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li>
+          <a href="index.html">首页</a>
+        </li>
+        <li class="active">
+          <a href="activity.html">
+            精彩活动
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li>
+          <a href="product.html">产品中心</a>
+        </li>
+        <li>
+          <a href="my_policy_cloud.html">我的保单云</a>
+        </li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse --> </div>
+  <!-- /.container-fluid -->
+</nav>
+
+<div class="activity">
+  <div class="container">
+    <h4>
+      <a href="#">精选活动</a>
+    </h4>
+    <div class="row">
+      <div class="col-xs-12">
+        <img src="../resources/images/banner.png" alt=""></div>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-4 menu">
+        <div class="row">
+          <ul class="pull-left col-xs-6">
+            关于保单云
+            <li>
+              <a href="#">保单云介绍</a>
+            </li>
+            <li>
+              <a href="#">投资者关系</a>
+            </li>
+            <li>
+              <a href="#">企业招聘</a>
+            </li>
+            <li>
+              <a href="#">联系我们</a>
+            </li>
+          </ul>
+          <ul class="pull-left col-xs-6">
+            帮助中心
+            <li>
+              <a href="#">隐私保护声明</a>
+            </li>
+            <li>
+              <a href="#">网站声明</a>
+            </li>
+            <li>
+              <a href="#">网站地图</a>
+            </li>
+            <li>
+              <a href="#">用户体验计划</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-xs-4 logo text-center">
+        <img src="../resources/images/logo_footer.png" alt=""></div>
+      <div class="col-xs-4 qrcode text-right">
+        <p>扫描查看手机版</p>
+        <img src="../resources/images/qrcode.png" alt=""></div>
+    </div>
+  </div>
+  <div class="copyright">
+    <div class="container">
+      <div class="copy">
+        版权所有 © 北京众信易保科技有限公司  最实用的保险服务平台
+        <br>Copyright © Beijing Zhongxin ebaotech Technology Co. Ltd.</div>
+      <div class="icp">ICP许可证号 粤ICP备06118290号-2</div>
+    </div>
+  </div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="../resources/js/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../resources/js/bootstrap.min.js"></script>
+<script src="../resources/js/common-min.js"></script>
+
+</body>
+</html>

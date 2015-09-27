@@ -1,0 +1,18 @@
+$(document).ready(function () {
+
+    $("#myContent").load(window.base + "/mycenter/myinfo");
+
+    $("#myinfo").click(function () {
+        $(this).siblings().removeClass("active").addClass("active");
+        $("#myContent").load(window.base + "/mycenter/myinfo");
+    });
+
+    $("#changemypwd").click(function () {
+        $(this).siblings().removeClass("active").addClass("active");
+        $("#myContent").load(window.base + "/mycenter/changemypwd");
+    });
+
+    $("#upHeader").click(function(){
+        $("#myContent").load(window.base + "/mycenter/editPhoto");
+    })
+});

@@ -1,0 +1,22 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: yutao
+  Date: 2015/8/20
+  Time: 12:56
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+<title>保单云首页</title>
+<jsp:include page="commonCss.jsp"/>
+<!--[if lt IE 9]>
+<script src="${base}/resources/js/html5shiv.min.js"></script>
+<script src="${base}/resources/js/respond.min.js"></script>
+<![endif]-->
+<script>
+  window.base = '<%=request.getContextPath()%>';
+</script>

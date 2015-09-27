@@ -1,0 +1,94 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
+<%--
+  Created by IntelliJ IDEA.
+  User: yutao
+  Date: 2015/8/24
+  Time: 9:54
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <jsp:include page="common/header.jsp"/>
+</head>
+<body>
+<!-- 右侧浮动区 -->
+<jsp:include page="common/floatSite.jsp"/>
+
+<!-- 顶头菜单区 -->
+<jsp:include page="common/topmenu.jsp"/>
+
+<!-- 顶部导航区 -->
+<jsp:include page="common/mypolicynav.jsp"/>
+
+<!-- 面包屑 -->
+<div class="container">
+    <ol class="breadcrumb">
+        <li>
+            <a href="<%=request.getContextPath()%>/myshareperson">共享人管理</a>
+        </li>
+        <li class="active">共享人列表</li>
+    </ol>
+</div>
+
+
+<div class="container">
+    <div class="share_member">
+
+        <div class="title">
+            <div class="add"><a href="<%=request.getContextPath()%>/addshareperson">新建共享人</a></div>
+            我的共享人
+        </div>
+        <ul class="list">
+            <c:forEach items="${sharePersons}" var="sharePerson">
+                <li>
+                    <div class="up">
+                        <%--<div class="num">${sharePerson.policyCount}</div>--%>
+                        <div class="name"><a href="javascript:void(0)">${sharePerson.pname}</a><span
+                                class="relationship">
+                            <c:choose>
+                                <c:when test="${sharePerson.relationship==1}">
+                                    亲人
+                                </c:when>
+                                <c:when test="${sharePerson.relationship==2}">
+                                    同学
+                                </c:when>
+                                <c:when test="${sharePerson.relationship==3}">
+                                    朋友
+                                </c:when>
+                                <c:when test="${sharePerson.relationship==4}">
+                                    其他
+                                </c:when>
+                            </c:choose>
+                        </span></div>
+                        <div class="phone">${sharePerson.mobile}</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <div class="delete text-center"><a href="javascript:void(0)" onclick="removeSharePerson(${sharePerson.shareUserId})">删除共享人</a></div>
+                        </div>
+                    </div>
+                </li>
+            </c:forEach>
+        </ul>
+    </div>
+</div>
+
+<!-- 底部 -->
+<jsp:include page="common/footer.jsp"/>
+<script>
+    function removeSharePerson(id) {
+        if (confirm("确定要删除选定的共享人吗")) {
+            $.post("<%=request.getContextPath()%>/removeperson/" + id, {}, function (response) {
+                if (response.success) {
+                    location.href = "<%=request.getContextPath()%>/myshareperson"
+                } else {
+                    alert("删除共享人失败!");
+                }
+            });
+        }
+    }
+</script>
+</body>
+</html>

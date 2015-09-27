@@ -1,0 +1,3319 @@
+{
+"CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
+"creatorBuild": "19051",
+"files": {
+	"\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/html\/404.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/html\/404.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/html\/activity.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/html\/activity.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/html\/add_share_member.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/html\/add_share_member.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/html\/claims_processing_search.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/html\/claims_processing_search.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/html\/demo.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/html\/demo.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/html\/document_download.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/html\/document_download.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/html\/edit_photo.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/html\/edit_photo.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/html\/forget_password.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/html\/forget_password.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/html\/hlep_center.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/html\/hlep_center.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/html\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/html\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/html\/login.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/html\/login.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/html\/modify_date.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/html\/modify_date.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/html\/modify_password.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/html\/modify_password.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/html\/my_activity.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/html\/my_activity.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/html\/my_policy_cloud.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/html\/my_policy_cloud.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/html\/my_tuan.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/html\/my_tuan.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/html\/news_detail.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/html\/news_detail.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/html\/news_list.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/html\/news_list.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/html\/perfect_data.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/html\/perfect_data.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/html\/policy_company.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/html\/policy_company.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/html\/policy_personal.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/html\/policy_personal.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/html\/product.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/html\/product.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/html\/regist.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/html\/regist.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/html\/reset_password.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/html\/reset_password.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/html\/settlement_of_claims.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/html\/settlement_of_claims.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/html\/share_member.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/html\/share_member.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/html\/share_member_detail.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/html\/share_member_detail.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/html\/table.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/html\/table.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/html\/upload_policy.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/html\/upload_policy.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/html\/user_center.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/html\/user_center.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/html\/user_messages.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/html\/user_messages.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/html\/validation_success.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/html\/validation_success.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/resources\/css\/bootstrap-theme.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/css\/bootstrap-theme.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/resources\/css\/bootstrap.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/css\/bootstrap.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/resources\/css\/policy.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/css\/policy.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/resources\/css\/policy.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/css\/policy.scss",
+		"outputAbbreviatedPath": "\/webapp\/resources\/css\/policy.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/webapp\/resources\/fonts\/iconfont.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/fonts\/iconfont.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/resources\/images\/404.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 285276,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/404.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/404.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/A4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1432,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/A4.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/A4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/banner.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 231849,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/banner.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/banner.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/banner1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 364121,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/banner1.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/banner1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/banner2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 407982,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/banner2.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/banner2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/csssprite\/bei.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 504,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/bei.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/bei.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/csssprite\/bei@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1219,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/bei@2x.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/bei@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/csssprite\/enterprise_disabled.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 485,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/enterprise_disabled.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/enterprise_disabled.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/csssprite\/enterprise_disabled@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1009,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/enterprise_disabled@2x.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/enterprise_disabled@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/csssprite\/enterprise_noraml.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 716,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/enterprise_noraml.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/enterprise_noraml.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/csssprite\/enterprise_noraml@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1657,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/enterprise_noraml@2x.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/enterprise_noraml@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/csssprite\/expired.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3324,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/expired.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/expired.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/csssprite\/expired@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7108,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/expired@2x.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/expired@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/csssprite\/failure.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3102,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/failure.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/failure.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/csssprite\/failure@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6944,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/failure@2x.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/failure@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/csssprite\/invalid.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3102,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/invalid.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/invalid.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/csssprite\/invalid@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6944,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/invalid@2x.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/invalid@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/csssprite\/share.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 504,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/share.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/share.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/csssprite\/share@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1219,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/share@2x.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/share@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/csssprite\/share_disabled.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 503,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/share_disabled.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/share_disabled.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/csssprite\/share_disabled@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1179,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/share_disabled@2x.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/share_disabled@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/csssprite\/share_enterprise_disabled.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 941,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/share_enterprise_disabled.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/share_enterprise_disabled.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/csssprite\/share_enterprise_disabled@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2255,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/share_enterprise_disabled@2x.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/share_enterprise_disabled@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/csssprite\/share_enterprise_noraml.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1199,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/share_enterprise_noraml.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/share_enterprise_noraml.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/csssprite\/share_enterprise_noraml@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3425,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/share_enterprise_noraml@2x.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/share_enterprise_noraml@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/csssprite\/share_normal.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 504,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/share_normal.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/share_normal.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/csssprite\/share_normal@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1219,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/share_normal@2x.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/share_normal@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/csssprite\/tuan.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 739,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/tuan.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/tuan.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/csssprite\/tuan@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1631,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/tuan@2x.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/csssprite\/tuan@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/line1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/line1.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/line1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/login_tit_bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2881,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/login_tit_bg.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/login_tit_bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9264,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/logo.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/logo_footer.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17107,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/logo_footer.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/logo_footer.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/no_policy_pic.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7436,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/no_policy_pic.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/no_policy_pic.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/photo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 85569,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/photo.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/photo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/policy.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 95218,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/policy.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/policy.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/product.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26639,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/product.jpg",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/product.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/product.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 68087,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/product.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/product.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/product1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24116,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/product1.jpg",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/product1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/product1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55992,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/product1.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/product1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/product2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10192,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/product2.jpg",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/product2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/qqlogo_2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11556,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/qqlogo_2x.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/qqlogo_2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/qrcode.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11854,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/qrcode.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/qrcode.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/reg_tit_bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2674,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/reg_tit_bg.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/reg_tit_bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/ui-bg_flat_55_999999_40x100.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 180,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/ui-bg_flat_55_999999_40x100.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/ui-bg_flat_55_999999_40x100.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/ui-bg_flat_75_aaaaaa_40x100.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 180,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/ui-bg_flat_75_aaaaaa_40x100.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/ui-bg_flat_75_aaaaaa_40x100.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/ui-bg_glass_45_0078ae_1x400.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 136,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/ui-bg_glass_45_0078ae_1x400.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/ui-bg_glass_45_0078ae_1x400.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/ui-bg_glass_55_f8da4e_1x400.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 168,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/ui-bg_glass_55_f8da4e_1x400.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/ui-bg_glass_55_f8da4e_1x400.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/ui-bg_glass_75_79c9ec_1x400.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 132,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/ui-bg_glass_75_79c9ec_1x400.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/ui-bg_glass_75_79c9ec_1x400.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/ui-bg_gloss-wave_45_e14f1c_500x100.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3649,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/ui-bg_gloss-wave_45_e14f1c_500x100.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/ui-bg_gloss-wave_45_e14f1c_500x100.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/ui-bg_gloss-wave_50_6eac2c_500x100.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4256,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/ui-bg_gloss-wave_50_6eac2c_500x100.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/ui-bg_gloss-wave_50_6eac2c_500x100.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/ui-bg_gloss-wave_75_2191c0_500x100.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3457,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/ui-bg_gloss-wave_75_2191c0_500x100.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/ui-bg_gloss-wave_75_2191c0_500x100.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/ui-bg_inset-hard_100_fcfdfd_1x100.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 88,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/ui-bg_inset-hard_100_fcfdfd_1x100.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/ui-bg_inset-hard_100_fcfdfd_1x100.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/ui-icons_0078ae_256x240.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4369,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/ui-icons_0078ae_256x240.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/ui-icons_0078ae_256x240.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/ui-icons_056b93_256x240.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4369,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/ui-icons_056b93_256x240.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/ui-icons_056b93_256x240.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/ui-icons_d8e7f3_256x240.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4369,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/ui-icons_d8e7f3_256x240.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/ui-icons_d8e7f3_256x240.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/ui-icons_e0fdff_256x240.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4369,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/ui-icons_e0fdff_256x240.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/ui-icons_e0fdff_256x240.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/ui-icons_f5e175_256x240.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4369,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/ui-icons_f5e175_256x240.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/ui-icons_f5e175_256x240.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/ui-icons_f7a50d_256x240.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4369,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/ui-icons_f7a50d_256x240.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/ui-icons_f7a50d_256x240.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/ui-icons_fcd113_256x240.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4369,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/ui-icons_fcd113_256x240.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/ui-icons_fcd113_256x240.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/images\/verification_code.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 928,
+		"inputAbbreviatedPath": "\/webapp\/resources\/images\/verification_code.png",
+		"outputAbbreviatedPath": "\/webapp\/resources\/images\/verification_code.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webapp\/resources\/js\/bootstrap.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/bootstrap.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/min\/bootstrap-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/bootstrap.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/bootstrap.min.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/min\/bootstrap.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/calendar.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/calendar.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/min\/calendar-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/common-min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/common-min.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/min\/common-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/common.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/common.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/min\/common-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/date\/jquery-1.4.2.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/date\/jquery-1.4.2.min.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/date\/min\/jquery-1.4.2.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/date\/jquery-ui-1.8.4.custom.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/date\/jquery-ui-1.8.4.custom.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/resources\/js\/date\/jquery-ui-1.8.4.custom.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/date\/jquery-ui-1.8.4.custom.min.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/date\/min\/jquery-ui-1.8.4.custom.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/html5shiv.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/html5shiv.min.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/min\/html5shiv.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/jquery-migrate-1.2.1.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/jquery-migrate-1.2.1.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/min\/jquery-migrate-1.2.1-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/jquery.form.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/jquery.form.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/min\/jquery.form-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/jquery.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/jquery.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/min\/jquery-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/jquery.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/jquery.min.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/min\/jquery.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/jquery.validate.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/jquery.validate.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/min\/jquery.validate-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/npm.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/npm.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/min\/npm-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/css\/bootstrap-datepicker.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/css\/bootstrap-datepicker.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/resources\/js\/plugin\/css\/bootstrap-datepicker.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/css\/bootstrap-datepicker.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/resources\/js\/plugin\/css\/bootstrap-datepicker.standalone.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/css\/bootstrap-datepicker.standalone.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/resources\/js\/plugin\/css\/bootstrap-datepicker.standalone.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/css\/bootstrap-datepicker.standalone.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/resources\/js\/plugin\/css\/bootstrap-datepicker3.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/css\/bootstrap-datepicker3.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/resources\/js\/plugin\/css\/bootstrap-datepicker3.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/css\/bootstrap-datepicker3.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/resources\/js\/plugin\/css\/bootstrap-datepicker3.standalone.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/css\/bootstrap-datepicker3.standalone.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/resources\/js\/plugin\/css\/bootstrap-datepicker3.standalone.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/css\/bootstrap-datepicker3.standalone.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/resources\/js\/plugin\/css\/datepicker.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/css\/datepicker.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/bootstrap-datepicker.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/bootstrap-datepicker.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/min\/bootstrap-datepicker-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.ar.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.ar.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.ar-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.az.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.az.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.az-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.bg.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.bg.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.bg-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.bs.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.bs.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.bs-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.ca.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.ca.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.ca-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.cs.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.cs.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.cs-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.cy.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.cy.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.cy-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.da.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.da.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.da-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.de.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.de.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.de-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.el.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.el.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.el-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.en-GB.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.en-GB.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.en-GB-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.eo.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.eo.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.eo-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.es.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.es.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.es-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.et.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.et.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.et-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.eu.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.eu.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.eu-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.fa.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.fa.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.fa-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.fi.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.fi.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.fi-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.fo.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.fo.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.fo-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.fr-CH.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.fr-CH.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.fr-CH-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.fr.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.fr.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.fr-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.gl.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.gl.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.gl-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.he.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.he.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.he-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.hr.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.hr.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.hr-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.hu.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.hu.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.hu-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.hy.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.hy.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.hy-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.id.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.id.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.id-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.is.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.is.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.is-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.it-CH.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.it-CH.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.it-CH-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.it.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.it.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.it-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.ja.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.ja.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.ja-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.ka.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.ka.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.ka-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.kh.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.kh.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.kh-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.kk.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.kk.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.kk-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.ko.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.ko.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.ko-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.kr.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.kr.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.kr-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.lt.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.lt.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.lt-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.lv.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.lv.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.lv-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.me.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.me.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.me-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.mk.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.mk.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.mk-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.mn.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.mn.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.mn-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.ms.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.ms.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.ms-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.nb.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.nb.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.nb-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.nl-BE.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.nl-BE.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.nl-BE-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.nl.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.nl.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.nl-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.no.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.no.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.no-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.pl.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.pl.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.pl-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.pt-BR.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.pt-BR.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.pt-BR-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.pt.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.pt.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.pt-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.ro.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.ro.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.ro-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.rs-latin.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.rs-latin.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.rs-latin-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.rs.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.rs.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.rs-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.ru.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.ru.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.ru-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.sk.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.sk.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.sk-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.sl.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.sl.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.sl-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.sq.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.sq.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.sq-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.sr-latin.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.sr-latin.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.sr-latin-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.sr.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.sr.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.sr-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.sv.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.sv.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.sv-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.sw.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.sw.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.sw-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.th.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.th.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.th-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.tr.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.tr.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.tr-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.uk.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.uk.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.uk-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.vi.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.vi.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.vi-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.zh-CN.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.zh-CN.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.zh-CN-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.zh-TW.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/bootstrap-datepicker.zh-TW.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/plugin\/js\/locales\/min\/bootstrap-datepicker.zh-TW-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/respond.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/respond.min.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/min\/respond.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/upload\/css\/jquery.fileupload.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/upload\/css\/jquery.fileupload.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/resources\/js\/upload\/js\/jquery.fileupload.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/upload\/js\/jquery.fileupload.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/upload\/js\/min\/jquery.fileupload-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/upload\/js\/jquery.iframe-transport.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/upload\/js\/jquery.iframe-transport.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/upload\/js\/min\/jquery.iframe-transport-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/upload\/js\/jquery.ui.widget.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/upload\/js\/jquery.ui.widget.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/upload\/js\/min\/jquery.ui.widget-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/js\/xss.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/js\/xss.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/js\/min\/xss-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/myjs\/addshareperson.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/myjs\/addshareperson.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/myjs\/min\/addshareperson-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/myjs\/editpolicy.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/myjs\/editpolicy.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/myjs\/min\/editpolicy-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/myjs\/handleclaims.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/myjs\/handleclaims.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/myjs\/min\/handleclaims-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/myjs\/login.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/myjs\/login.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/myjs\/min\/login-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/myjs\/min\/addshareperson-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/myjs\/min\/addshareperson-min.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/myjs\/min\/min\/addshareperson-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/myjs\/min\/mycenter-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/myjs\/min\/mycenter-min.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/myjs\/min\/min\/mycenter-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/myjs\/mycenter.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/myjs\/mycenter.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/myjs\/min\/mycenter-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/resources\/myjs\/regedit.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/resources\/myjs\/regedit.js",
+		"outputAbbreviatedPath": "\/webapp\/resources\/myjs\/min\/regedit-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webapp\/WEB-INF\/views\/active.jsp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/WEB-INF\/views\/active.jsp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/WEB-INF\/views\/addshareperson.jsp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/WEB-INF\/views\/addshareperson.jsp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/WEB-INF\/views\/article\/news_detail.jsp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/WEB-INF\/views\/article\/news_detail.jsp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/WEB-INF\/views\/article\/news_list.jsp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/WEB-INF\/views\/article\/news_list.jsp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/WEB-INF\/views\/common\/commonCss.jsp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/WEB-INF\/views\/common\/commonCss.jsp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/WEB-INF\/views\/common\/commonJs.jsp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/WEB-INF\/views\/common\/commonJs.jsp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/WEB-INF\/views\/common\/floatSite.jsp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/WEB-INF\/views\/common\/floatSite.jsp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/WEB-INF\/views\/common\/footer.jsp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/WEB-INF\/views\/common\/footer.jsp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/WEB-INF\/views\/common\/header.jsp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/WEB-INF\/views\/common\/header.jsp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/WEB-INF\/views\/common\/mypolicynav.jsp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/WEB-INF\/views\/common\/mypolicynav.jsp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/WEB-INF\/views\/common\/topmenu.jsp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/WEB-INF\/views\/common\/topmenu.jsp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/WEB-INF\/views\/common\/topnav.jsp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/WEB-INF\/views\/common\/topnav.jsp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/WEB-INF\/views\/downresource.jsp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/WEB-INF\/views\/downresource.jsp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/WEB-INF\/views\/editpolicy.jsp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/WEB-INF\/views\/editpolicy.jsp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/WEB-INF\/views\/handleclaims.jsp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/WEB-INF\/views\/handleclaims.jsp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/WEB-INF\/views\/imgpolicy.jsp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/WEB-INF\/views\/imgpolicy.jsp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/WEB-INF\/views\/index.jsp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/WEB-INF\/views\/index.jsp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/WEB-INF\/views\/index\/active.jsp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/WEB-INF\/views\/index\/active.jsp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/WEB-INF\/views\/index\/firendLinks.jsp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/WEB-INF\/views\/index\/firendLinks.jsp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/WEB-INF\/views\/index\/new.jsp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/WEB-INF\/views\/index\/new.jsp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/WEB-INF\/views\/index\/policymenu.jsp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/WEB-INF\/views\/index\/policymenu.jsp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/WEB-INF\/views\/index\/product.jsp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/WEB-INF\/views\/index\/product.jsp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/WEB-INF\/views\/index\/switchImg.jsp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/WEB-INF\/views\/index\/switchImg.jsp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/WEB-INF\/views\/login.jsp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/WEB-INF\/views\/login.jsp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/WEB-INF\/views\/myactive.jsp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/WEB-INF\/views\/myactive.jsp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/WEB-INF\/views\/mycenter.jsp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/WEB-INF\/views\/mycenter.jsp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/WEB-INF\/views\/mycenter\/changemyinfo.jsp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/WEB-INF\/views\/mycenter\/changemyinfo.jsp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/WEB-INF\/views\/mycenter\/changemypwd.jsp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/WEB-INF\/views\/mycenter\/changemypwd.jsp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/WEB-INF\/views\/mycenter\/editPhoto.jsp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/WEB-INF\/views\/mycenter\/editPhoto.jsp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/WEB-INF\/views\/mycenter\/myinfo.jsp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/WEB-INF\/views\/mycenter\/myinfo.jsp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/WEB-INF\/views\/mycenter\/mymsg.jsp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/WEB-INF\/views\/mycenter\/mymsg.jsp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/WEB-INF\/views\/myclaims.jsp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/WEB-INF\/views\/myclaims.jsp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/WEB-INF\/views\/mygroupbuy.jsp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/WEB-INF\/views\/mygroupbuy.jsp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/WEB-INF\/views\/mypolicy.jsp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/WEB-INF\/views\/mypolicy.jsp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/WEB-INF\/views\/mypolicydetail.jsp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/WEB-INF\/views\/mypolicydetail.jsp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/WEB-INF\/views\/mysharedetail.jsp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/WEB-INF\/views\/mysharedetail.jsp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/WEB-INF\/views\/myshareperson.jsp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/WEB-INF\/views\/myshareperson.jsp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/WEB-INF\/views\/policyshareuser.jsp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/WEB-INF\/views\/policyshareuser.jsp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/WEB-INF\/views\/product.jsp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/WEB-INF\/views\/product.jsp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/WEB-INF\/views\/regedit.jsp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/WEB-INF\/views\/regedit.jsp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webapp\/WEB-INF\/views\/uploadpolicy.jsp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webapp\/WEB-INF\/views\/uploadpolicy.jsp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		}
+	},
+"hooks": [
+	],
+"lastSavedByUser": "吕晓峰",
+"manualImportLinks": {
+	},
+"projectAttributes": {
+	"bowerAbbreviatedPath": "",
+	"displayValue": "my_policy_cloud",
+	"displayValueWasSetByUser": 0,
+	"iconImageName": "compass_orange"
+	},
+"projectSettings": {
+	"alwaysUseExternalServer": 0,
+	"animateCSSInjections": 1,
+	"autoApplyPSLanguageSettingsStyle": 0,
+	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoSyncProjectSettingsFile": 1,
+	"browserRefreshDelay": 0,
+	"coffeeAutoOutputPathEnabled": 1,
+	"coffeeAutoOutputPathFilenamePattern": "*.js",
+	"coffeeAutoOutputPathRelativePath": "",
+	"coffeeAutoOutputPathReplace1": "",
+	"coffeeAutoOutputPathReplace2": "",
+	"coffeeAutoOutputPathStyle": 0,
+	"coffeeCreateSourceMap": 0,
+	"coffeeLintFlags2": {
+		"arrow_spacing": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camel_case_classes": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"colon_assignment_spacing": {
+			"active": 0,
+			"flagValue": 1
+			},
+		"cyclomatic_complexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"duplicate_key": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"ensure_comprehensions": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indentation": {
+			"active": 1,
+			"flagValue": 2
+			},
+		"line_endings": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"max_line_length": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"missing_fat_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newlines_after_classes": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"no_backticks": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_empty_functions": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_empty_param_list": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_implicit_braces": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_implicit_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_interpolation_in_single_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_stand_alone_at": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_tabs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_throwing_strings": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_whitespace": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_unnecessary_double_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_unnecessary_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"non_empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prefer_english_operator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space_operators": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"spacing_after_comma": {
+			"active": 1,
+			"flagValue": -1
+			}
+		},
+	"coffeeMinifyOutput": 1,
+	"coffeeOutputStyle": 0,
+	"coffeeSyntaxCheckerStyle": 1,
+	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerPreviewPathAddition": "",
+	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
+	"hamlAutoOutputPathEnabled": 1,
+	"hamlAutoOutputPathFilenamePattern": "*.html",
+	"hamlAutoOutputPathRelativePath": "",
+	"hamlAutoOutputPathReplace1": "",
+	"hamlAutoOutputPathReplace2": "",
+	"hamlAutoOutputPathStyle": 0,
+	"hamlEscapeHTMLCharacters": 0,
+	"hamlNoEscapeInAttributes": 0,
+	"hamlOutputFormat": 2,
+	"hamlOutputStyle": 0,
+	"hamlUseCDATA": 0,
+	"hamlUseDoubleQuotes": 0,
+	"hamlUseUnixNewlines": 0,
+	"jadeAutoOutputPathEnabled": 1,
+	"jadeAutoOutputPathFilenamePattern": "*.html",
+	"jadeAutoOutputPathRelativePath": "",
+	"jadeAutoOutputPathReplace1": "",
+	"jadeAutoOutputPathReplace2": "",
+	"jadeAutoOutputPathStyle": 0,
+	"jadeCompileDebug": 1,
+	"jadeOutputStyle": 0,
+	"javascriptAutoOutputPathEnabled": 1,
+	"javascriptAutoOutputPathFilenamePattern": "*-min.js",
+	"javascriptAutoOutputPathRelativePath": "\/min",
+	"javascriptAutoOutputPathReplace1": "",
+	"javascriptAutoOutputPathReplace2": "",
+	"javascriptAutoOutputPathStyle": 2,
+	"javascriptCreateSourceMap": 1,
+	"javascriptOutputStyle": 1,
+	"javascriptSyntaxCheckerStyle": 1,
+	"jsCheckerReservedNamesString": "",
+	"jsHintFlags2": {
+		"asi": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"boss": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"browserify": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camelcase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"curly": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"dojo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"elision": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqeqeq": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqnull": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es3": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"esnext": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"expr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"freeze": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"funcscope": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"futurehostile": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"globalstrict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"immed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"iterator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jasmine": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jquery": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"lastsemic": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"latedef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"laxbreak": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"laxcomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loopfunc": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxcomplexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"maxdepth": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"maxparams": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxstatements": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"mocha": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"mootools": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"moz": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"multistr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newcap": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noarg": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nocomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"noempty": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonbsp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonew": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nonstandard": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"notypeof": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noyield": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"onecase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"phantom": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prototypejs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"qunit": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"scripturl": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shadow": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"singleGroups": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"strict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"supernew": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"typed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"undef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"varstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"withstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"worker": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"wsh": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"yui": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsLintFlags2": {
+		"bitwise": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es6": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"for": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"white": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsonAutoOutputPathEnabled": 0,
+	"jsonAutoOutputPathFilenamePattern": "*-min.json",
+	"jsonAutoOutputPathRelativePath": "",
+	"jsonAutoOutputPathReplace1": "",
+	"jsonAutoOutputPathReplace2": "",
+	"jsonAutoOutputPathStyle": 0,
+	"jsonOrderOutput": 0,
+	"jsonOutputStyle": 1,
+	"kitAutoOutputPathEnabled": 1,
+	"kitAutoOutputPathFilenamePattern": "*.html",
+	"kitAutoOutputPathRelativePath": "",
+	"kitAutoOutputPathReplace1": "",
+	"kitAutoOutputPathReplace2": "",
+	"kitAutoOutputPathStyle": 0,
+	"lessAllowInsecureImports": 0,
+	"lessAutoOutputPathEnabled": 1,
+	"lessAutoOutputPathFilenamePattern": "*.css",
+	"lessAutoOutputPathRelativePath": "..\/css",
+	"lessAutoOutputPathReplace1": "less",
+	"lessAutoOutputPathReplace2": "css",
+	"lessAutoOutputPathStyle": 2,
+	"lessCreateSourceMap": 0,
+	"lessDisableJavascript": 0,
+	"lessIeCompatibility": 1,
+	"lessOutputStyle": 0,
+	"lessRelativeURLS": 0,
+	"lessStrictImports": 0,
+	"lessStrictMath": 0,
+	"lessStrictUnits": 0,
+	"markdownAutoOutputPathEnabled": 1,
+	"markdownAutoOutputPathFilenamePattern": "*.html",
+	"markdownAutoOutputPathRelativePath": "",
+	"markdownAutoOutputPathReplace1": "",
+	"markdownAutoOutputPathReplace2": "",
+	"markdownAutoOutputPathStyle": 0,
+	"markdownCriticStyle": 0,
+	"markdownEnableFootnotes": 1,
+	"markdownEnableLabels": 1,
+	"markdownEnableSmartQuotes": 1,
+	"markdownEscapeLineBreaks": 0,
+	"markdownMaskEmailAddresses": 1,
+	"markdownOutputFormat": 0,
+	"markdownOutputStyle": 0,
+	"markdownParseMetadata": 1,
+	"markdownProcessHTML": 0,
+	"markdownRandomFootnoteNumbers": 0,
+	"markdownUseCompatibilityMode": 0,
+	"reloadFileURLs": 0,
+	"sassAutoOutputPathEnabled": 1,
+	"sassAutoOutputPathFilenamePattern": "*.css",
+	"sassAutoOutputPathRelativePath": "..\/css",
+	"sassAutoOutputPathReplace1": "sass",
+	"sassAutoOutputPathReplace2": "css",
+	"sassAutoOutputPathStyle": 2,
+	"sassCreateSourceMap": 0,
+	"sassDebugStyle": 0,
+	"sassDecimalPrecision": 10,
+	"sassOutputStyle": 0,
+	"sassUseLibsass": 0,
+	"shouldRunAutoprefixer": 0,
+	"shouldRunBless": 0,
+	"skippedItemsString": ".svn, .git, .hg, log, _logs, _cache, cache, logs, node_modules",
+	"slimAutoOutputPathEnabled": 1,
+	"slimAutoOutputPathFilenamePattern": "*.html",
+	"slimAutoOutputPathRelativePath": "",
+	"slimAutoOutputPathReplace1": "",
+	"slimAutoOutputPathReplace2": "",
+	"slimAutoOutputPathStyle": 0,
+	"slimCompileOnly": 0,
+	"slimLogicless": 0,
+	"slimOutputFormat": 0,
+	"slimOutputStyle": 1,
+	"slimRailsCompatible": 0,
+	"stylusAutoOutputPathEnabled": 1,
+	"stylusAutoOutputPathFilenamePattern": "*.css",
+	"stylusAutoOutputPathRelativePath": "..\/css",
+	"stylusAutoOutputPathReplace1": "stylus",
+	"stylusAutoOutputPathReplace2": "css",
+	"stylusAutoOutputPathStyle": 2,
+	"stylusCreateSourceMap": 0,
+	"stylusDebugStyle": 0,
+	"stylusImportCSS": 0,
+	"stylusOutputStyle": 0,
+	"stylusResolveRelativeURLS": 0,
+	"typescriptAutoOutputPathEnabled": 1,
+	"typescriptAutoOutputPathFilenamePattern": "*.js",
+	"typescriptAutoOutputPathRelativePath": "\/js",
+	"typescriptAutoOutputPathReplace1": "",
+	"typescriptAutoOutputPathReplace2": "",
+	"typescriptAutoOutputPathStyle": 2,
+	"typescriptCreateDeclarationFile": 0,
+	"typescriptCreateSourceMap": 0,
+	"typescriptMinifyOutput": 0,
+	"typescriptModuleType": 0,
+	"typescriptNoImplicitAny": 0,
+	"typescriptPreserveConstEnums": 0,
+	"typescriptRemoveComments": 0,
+	"typescriptSuppressImplicitAnyIndexErrors": 0,
+	"typescriptTargetECMAVersion": 0,
+	"uglifyDefinesString": "",
+	"uglifyFlags2": {
+		"ascii-only": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bare-returns": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"booleans": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"bracketize": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"cascade": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comparisons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"compress": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"conditionals": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"dead_code": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_console": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evaluate": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indent-level": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"indent-start": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"inline-script": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"join_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"keep_fargs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_fnames": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loops": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"mangle": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"max-line-len": {
+			"active": 1,
+			"flagValue": 32000
+			},
+		"negate_iife": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"properties": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"pure_getters": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"quote-keys": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"screw-ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sequences": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sort": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space-colon": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"toplevel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"warnings": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"width": {
+			"active": 1,
+			"flagValue": 80
+			}
+		},
+	"uglifyReservedNamesString": "$",
+	"websiteRelativeRoot": ""
+	},
+"settingsFileVersion": "2"
+}

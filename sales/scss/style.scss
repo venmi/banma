@@ -1,0 +1,444 @@
+$background: #fff;
+$font-family:"Microsoft YaHei",微软雅黑,"Microsoft JhengHei",华文细黑,STHeiti,MingLiu;
+$link: #1A8CFF;
+$white: #fff;
+$gray: #666;
+$black: #333;
+$base-color: #FF7100;
+$gray-bg: #f2f2f2;
+$icon_1:#FF8C35;
+$icon_2:#5198FF;
+$icon_3:#74F32E;
+
+*, :after, :before {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box
+
+}
+html, body, div, p, a, ul, li, i, h1, h4, img {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+img{
+	border: none;
+}
+html {
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+body {
+	font-family: $font-family;
+	font-size: 12px;
+	background-color: $background;
+	// padding-top: 100px;
+	color: $black;
+}
+@font-face {
+	font-family: "iconfont";
+	src: url('../fonts/iconfont.eot'); /* IE9*/
+	src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../fonts/iconfont.woff') format('woff'), /* chrome、firefox */
+	url('../fonts/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+	url('../fonts/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont {
+	font-family: "iconfont" !important;
+	font-size: 16px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke-width: 0.2px;
+	-moz-osx-font-smoothing: grayscale;
+}
+a {
+	text-decoration: none;
+
+	&:hover {
+		color: $link;
+	}
+}
+.container {
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.header {
+	background-color: $white;
+	width: 100%;
+	height: 100px;
+	// position: fixed;
+	// top: 0;
+
+	.logo {
+		color: $base-color;
+		background-image: url(../img/logo1.png);
+		background-repeat:no-repeat;
+		background-size: 180px 50px;
+		padding-left: 180px;
+		margin-top: 25px;
+		float: left;
+
+		.slogan {
+			height: 50px;
+			border-left: 1px solid $base-color;
+			padding-left: 25px;
+			margin-left: 25px;
+			line-height: 50px;
+			font-size: 18px;
+		}
+	}
+	.nav {
+		float: right;
+		margin-top: 50px;
+
+		li {
+			float: left;
+			margin-left: 25px;
+
+			a {
+				color: $base-color;
+				font-size: 14px;
+
+				&:hover {
+					font-weight: bold;
+				}
+			}
+		}
+	}
+}
+.banner {
+	height: 400px;
+	background-color: $base-color;
+	background-image: url(../img/banner.jpg);
+	background-repeat:repeat-x;
+	background-position: center;
+	text-align: center;
+	color: $base-color;
+
+	h1 {
+		padding-top: 230px;
+		font-size: 36px;
+		font-weight: normal;
+	}
+}
+.service, .role, .claims, .superiority, .core, .about, .friend {
+	.tit {
+		color: $base-color;
+		text-align: center;
+		font-size: 24px;
+		padding: 25px 0;
+	}
+	.list {
+		width: 1000px;
+		margin: 0 auto;
+		overflow: hidden;
+
+		li {
+			float: left;
+			text-align: center;
+		}
+	}
+}
+.service {
+	padding: 30px 0 40px;
+	.list {
+		li {
+			width: 25%;
+			height: 240px;
+
+			.icon {
+				width: 160px;
+				height: 160px;
+				margin: 0 auto;
+				border-radius: 160px;
+				background-color: $gray-bg;
+
+				.iconfont {
+					font-size: 64px;
+					line-height: 160px;
+					color: $gray;
+				}
+			}
+			p {
+				font-size: 14px;
+				padding-top: 30px;
+			}
+			&:hover {
+				.icon {
+					background-color: $base-color;
+
+					.iconfont {
+						color: $white;
+					}
+				}
+				p {
+					color: $base-color;
+				}
+			}
+		}
+	}
+}
+.role {
+	background-color: $gray-bg;
+	padding: 30px 0 60px;
+
+	.list {
+		li {
+			width: 300px;
+			margin-right: 50px;
+
+			&:last-child {
+				margin-right: 0;
+			}
+			.icon {
+				width: 120px;
+				height: 120px;
+				margin: 0 auto;
+				border-radius: 120px;
+				background-color: $white;
+				color: $gray;
+				line-height: 120px;
+				text-align: center;
+				font-size: 48px;
+			}
+			p {
+				font-size: 12px;
+				padding-top: 20px;
+			}
+			&:hover {
+				.icon {
+					background-color: $base-color;
+					color: $white;
+
+					.iconfont {
+						color: $white;
+					}
+				}
+				p {
+					color: $base-color;
+				}
+			}
+		}
+	}
+}
+.claims {
+	padding: 30px 0 50px;
+	.list {
+		li {
+			width: 300px;
+			height: 440px;
+			margin-right: 50px;
+			background-color: $gray-bg;
+			padding-top: 20px;
+
+			&:last-child {
+				margin-right: 0;
+			}
+			.icon {
+				width: 260px;
+				height: 120px;
+				margin: 0 auto;
+				color: $white;
+				padding-top: 10px;
+
+				.iconfont {
+					color: $white;
+					font-size: 64px;
+				}
+				p {
+					font-size: 14px;
+				}
+			}
+			.icon_1 {
+				background-color: $icon_1;
+			}
+			.icon_2 {
+				background-color: $icon_2;
+			}
+			.icon_3 {
+				background-color: $icon_3;
+			}
+			.cont {
+				width: 260px;
+				margin: 0 auto;
+				text-align: left;
+				padding-top: 20px;
+
+				h4 {
+					padding-bottom: 20px;
+					font-size: 14px;
+					font-weight: normal;
+
+					p {
+						color: $gray;
+						font-size: 12px;
+					}
+				}
+			}
+		}
+	}
+}
+.superiority {
+	background-color: $base-color;
+	margin-top: 20px;
+	padding-top: 30px;
+	.tit {
+		color: $white;
+	}
+	.content {
+		width: 1000px;
+		// height: 380px;
+		padding-bottom:50px;
+		margin: 0 auto;
+		background-image: url(../img/superiority_bg.png);
+		background-repeat: no-repeat;
+		background-size: 400px;
+		background-position: bottom right;
+
+		p {
+			color: $white;
+			line-height: 54px;
+			font-size: 14px;
+
+			.iconfont {
+				padding-right: 10px;
+			}
+		}
+	}
+}
+.core {
+	padding: 30px 0 50px;
+	.list {
+		li {
+			width: 25%;
+			height: 300px;
+
+			.icon {
+				width: 160px;
+				height: 160px;
+				margin: 0 auto;
+				border-radius: 160px;
+				background-color: $gray-bg;
+
+				.iconfont {
+					font-size: 64px;
+					line-height: 160px;
+					color: $gray;
+				}
+			}
+			h4 {
+				font-size: 14px;
+				padding-top: 20px;
+			}
+			p {
+				font-size: 12px;
+				color: $gray;
+				padding-top: 20px
+			}
+			&:hover {
+				.icon {
+					background-color: $base-color;
+
+					.iconfont {
+						color: $white;
+					}
+				}
+				h4, p {
+					color: $base-color;
+				}
+			}
+		}
+	}
+}
+.about {
+	background-color: $gray-bg;
+	padding: 30px 0 60px;
+	.content {
+		width: 1000px;
+		margin: 0 auto;
+		text-align: center;
+		line-height: 1.8em;
+		font-size: 14px;
+	}
+}
+.friend {
+	padding: 30px 0 60px;
+	.content {
+		width: 1000px;
+		margin: 0 auto;
+		overflow: hidden;
+		padding-bottom: 1px;
+		border-top: 1px solid $gray-bg;
+		border-left: 1px solid $gray-bg;
+
+		li {
+			float: left;
+			width: 199px;
+			height: 59px;
+			border-bottom: 1px solid $gray-bg;
+			border-right: 1px solid $gray-bg;
+
+			a {
+				display: block;
+				text-align: center;
+				padding-top: 5px;
+			}
+			img {
+				height: 50px;
+			}
+		}
+	}
+}
+.footer {
+	background-color: $base-color;
+	height: 330px;
+	color: $white;
+	padding-top: 60px;
+	margin-top: 20px;
+
+	.provider {
+		float: left;
+
+		.tit {
+			font-size: 24px;
+		}
+		.pic {
+			padding-top: 33px;
+			height: 40px;
+
+			a {
+				margin-right: 1px;
+				float: left;
+
+				img {
+					height: 40px;
+				}
+			}
+		}
+	}
+	.logo {
+		float: right;
+		width: 130px;
+		height: 50px;
+		background-image: url(../img/logo.png);
+		background-repeat: no-repeat;
+		background-size: 130px 50px;
+		margin-top: 60px;
+	}
+	.copyright {
+		clear: both;
+		border-top: 1px solid $white;
+		margin-top: 30px;
+		padding-top: 20px;
+
+		.copy {
+			float: left;
+		}
+		.icp {
+			float: right;
+		}
+	}
+}

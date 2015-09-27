@@ -1,0 +1,71 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: yutao
+  Date: 2015/8/22
+  Time: 11:23
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <jsp:include page="common/header.jsp"/>
+</head>
+<body>
+<!-- 右侧浮动区 -->
+<jsp:include page="common/floatSite.jsp"/>
+
+<!-- 顶头菜单区 -->
+<jsp:include page="common/topmenu.jsp"/>
+
+<!-- 顶部导航区 -->
+<jsp:include page="common/topnav.jsp"/>
+
+<div class="container">
+    <div class="login_box">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <div class="title">
+                    <a href="reset_password.html">欢迎登陆</a>
+                </div>
+                <form id="loginForm">
+                    <input type="text" name="username" class="form-control mobile_phone" id="username" placeholder="用户名/手机号">
+                    <input type="password" name="password"  class="form-control password" id="password" placeholder="密码">
+                    <button type="button" id="loginBtn" class="btn" value="" >立即登陆</button>
+                    <div class="fast">
+                        <div class="prompt">没有账号？<a href="<%=request.getContextPath()%>/regedit">免费注册</a></div>
+                        <div class="forget_password"><a href="forget_password.html">忘记密码?</a></div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+    </div>
+</div>
+
+<jsp:include page="common/footer.jsp"/>
+<%--<script src="<%=request.getContextPath()%>/resources/myjs/login.js"></script>--%>
+<script>
+    $(function () {
+        $("#loginBtn").click(function () {
+            var ajaxOptions = {
+                url: "/api/userLogin",
+                type: 'post',
+                dataType: 'json',
+                timeout: 100000,
+                cache: false,
+                success: function (responseJson) {
+                    if (responseJson.success) {
+                        location.href = "/index";
+                    } else {
+                        alert(responseJson.msg)
+                    }
+                }
+            };
+            $("#loginForm").ajaxSubmit(ajaxOptions);
+        });
+
+    });
+</script>
+</body>
+</html>
