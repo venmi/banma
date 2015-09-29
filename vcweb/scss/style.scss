@@ -98,12 +98,14 @@ a{
 			li {
 				float: left;
 				width: 25%;
-				height: 100px;
 				background-color: $white;
 				text-align: center;
-
+				
 				a {
 					display: block;
+					img{
+						width:100%;
+					}
 				}
 			}
 		}
@@ -189,12 +191,14 @@ a{
 			li {
 				float: left;
 				width: 25%;
-				height: 100px;
 				background-color: $white;
 				text-align: center;
 
 				a {
 					display: block;
+					img{
+						width:100%;
+					}
 				}
 			}
 		}
