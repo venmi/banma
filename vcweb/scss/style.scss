@@ -119,6 +119,15 @@ a{
 			}
 		}
 	}
+	.copy{
+		width:960px;
+		margin:0 auto;
+		padding:20px;
+		color:#666;
+		background-color:#fff;
+		text-align:center;
+		border-top:1px solid #ddd;
+	}
 }
 
 @media (min-width:768px) and (max-width:999px) {
@@ -213,6 +222,14 @@ a{
 			}
 		}
 	}
+	.copy{
+		width:100%;
+		padding:20px;
+		color:#666;
+		background-color:#fff;
+		text-align:center;
+		border-top:1px solid #ddd;
+	}
 }
 
 @media screen and (max-width:768px) {
@@ -305,5 +322,14 @@ a{
 				color: $gray;
 			}
 		}
+	}
+	.copy{
+		width:100%;
+		padding:px2rem(20);
+		color:#666;
+		background-color:#fff;
+		text-align:center;
+		border-top:1px solid #ddd;
+		font-size:px2rem(12);
 	}
 }

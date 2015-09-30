@@ -93,7 +93,16 @@ a {
   .about .content p {
     padding-bottom: 20px;
     font-size: 14px;
-    color: #666; } }
+    color: #666; }
+
+  .copy {
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #666;
+    background-color: #fff;
+    text-align: center;
+    border-top: 1px solid #ddd; } }
 @media (min-width: 768px) and (max-width: 999px) {
   .header, .links, .about {
     overflow: hidden;
@@ -166,7 +175,15 @@ a {
     .about .content p {
       padding-bottom: 20px;
       font-size: 14px;
-      color: #666; } }
+      color: #666; }
+
+  .copy {
+    width: 100%;
+    padding: 20px;
+    color: #666;
+    background-color: #fff;
+    text-align: center;
+    border-top: 1px solid #ddd; } }
 @media screen and (max-width: 768px) {
   .header, .links, .about {
     background-color: #fff; }
@@ -239,4 +256,13 @@ a {
     .about .content p {
       padding-bottom: 0.4266666667rem;
       font-size: 0.2986666667rem;
-      color: #666; } }
+      color: #666; }
+
+  .copy {
+    width: 100%;
+    padding: 0.4266666667rem;
+    color: #666;
+    background-color: #fff;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    font-size: 0.256rem; } }

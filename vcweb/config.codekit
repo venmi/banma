@@ -77,6 +77,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/uuzz.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44222,
+		"inputAbbreviatedPath": "\/img\/uuzz.png",
+		"outputAbbreviatedPath": "\/img\/uuzz.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/xinyi.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10588,
+		"inputAbbreviatedPath": "\/img\/xinyi.png",
+		"outputAbbreviatedPath": "\/img\/xinyi.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/yiplus.png": {
 		"fileType": 32768,
 		"ignore": 0,
