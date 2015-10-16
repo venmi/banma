@@ -1,0 +1,69 @@
+$company-bg:#FFF1E6;
+.company{
+	height: 650px;
+	background-color: $company-bg;
+	background-image: url(../images/company-bg.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+	.container{
+		position: relative;
+		> p{
+			width: 421px;
+			height: 40px;
+			position: absolute;
+			top: 277px;
+			left: 288px;
+			font-size: 14px;
+			line-height: 20px;
+			color: #666;
+			text-align: center;
+		}
+	}
+	h3{
+		width: 211px;
+		height: 56px;
+		@extend %sprites;
+		@extend %indent;
+		background-position: 0 -283px;
+		position: absolute;
+		top: 211px;
+		left: 389px;
+	}
+	.iterms{
+		width: 1000px;
+		height: 650px;
+		position: relative;
+		li{
+			width: 230px;
+			height: 230px;
+			position: absolute;
+			text-align: center;
+			color: #fff;
+			h4{
+				font-size: 24px;
+				font-weight: bold;
+				margin-bottom: 10px;
+			}
+			p{
+				font-size: 14px;
+				line-height: 20px;
+			}
+		}
+		.one{
+			top: 134px;
+			left: 0;
+		}
+		.two{
+			top: 134px;
+			right: 0;
+		}
+		.three{
+			top: 367px;
+			left: 111px;
+		}
+		.four{
+			top: 367px;
+			right: 111px;
+		}
+	}
+}

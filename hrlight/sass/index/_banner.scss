@@ -1,0 +1,53 @@
+$banner-bg:#64BAFD;
+.banner{
+	height:580px;
+	background:$banner-bg;
+	position: relative;
+	.fragment{
+		position: absolute;
+		top: 0;
+		left: 50%;
+		margin-left: -422px;
+	}
+	.slogan{
+		width: 852px;
+		height: 107px;
+		margin: 129px auto 0;
+		@extend %sprites;
+		background-position: 0 -383px;
+		@extend %indent;
+	}
+	.text{
+		text-align: center;
+		color: #fff;
+		font-size: 20px;
+		line-height: 1.5;
+		margin-top: 29px;
+	}
+	.rounds{
+		width: 440px;
+		height: 105px;
+		margin: 77px auto 0;
+		text-align: center;
+		.round-1{
+			width: 88px;
+			line-height: 88px;
+			color: #fff;
+			background-color: #fee05c;
+			@include border-radius(50%);
+			border:6px solid #fff;
+			float: left;
+			font-size: 24px;
+		}
+		.round-2{
+			@extend .round-1;
+			background-color: #6ACEFF;
+			margin-left: 70px;
+		}
+		.round-3{
+			@extend .round-1;
+			background-color: #ADCEB1;
+			margin-left: 70px;
+		}
+	}
+}

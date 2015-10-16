@@ -1,0 +1,56 @@
+$why-bg:#FFFDEF;
+.why{
+	height:690px;
+	background:$why-bg;
+	background-image: url(../images/why-bg.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	h3{
+		width: 329px;
+		height: 30px;
+		@extend %sprites;
+		@extend %indent;
+		background-position: 0 -62px;
+		margin: 56px auto 0;
+	}
+	.iterms{
+		width: 900px;
+		height: 430px;
+		padding: 16px;
+		margin: 0 auto;
+		overflow: hidden;
+		background-image: url(../images/why-iterm-bg.png);
+		background-repeat: no-repeat;
+		background-position: top center;
+		li{
+			width: 280px;
+			float: left;
+			padding: 136px 0 0 20px;
+		}
+		h4{
+			font-size: 18px;
+			font-weight: bold;
+			padding-bottom: 10px;
+		}
+		p{
+			font-size: 14px;
+			color: #666;
+			padding-bottom: 40px;
+		}
+		.one{
+			h4{
+				color: #FFE05C;
+			}
+		}
+		.two{
+			h4{
+				color: #6ACEFF;
+			}
+		}
+		.three{
+			h4{
+				color: #ADCEB1;
+			}
+		}
+	}
+}

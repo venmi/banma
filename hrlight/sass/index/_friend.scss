@@ -1,0 +1,122 @@
+$friend-bg:#64BAFD;
+.friend{
+	height: 650px;
+	background-color: $friend-bg;
+	.container{
+		height: 650px;
+		background-image: url(../images/friend-bg.png);
+		background-repeat: no-repeat;
+		background-position: center 205px;
+		position: relative;
+	}
+	.fragment{
+		position: absolute;
+		top: 162px;
+		left: 50%;
+		margin-left: -512px;
+	}
+	h3{
+		width: 378px;
+		height: 30px;
+		@extend %sprites;
+		@extend %indent;
+		background-position:-58px 0;
+		margin: 57px auto 25px;
+	}
+	.links{
+		width: 900px;
+		height: 240px;
+		position: absolute;
+		top: 205px;
+		left: 50%;
+		margin-left: -450px;
+		z-index: 999;
+		li{
+			width: 180px;
+			height: 80px;
+			float: left;
+			a{
+				display: block;
+				width: 140px;
+				height: 50px;
+				@extend %sprites;
+				margin: 15px auto 0;
+			}
+		}
+		.links-1{
+			a{
+				background-position:-405px -134px;
+			}
+		}
+		.links-2{
+			a{
+				background-position:-(405px+140) -134px;
+			}
+		}
+		.links-3{
+			a{
+				background-position:-(405px +140*2) -134px;
+			}
+		}
+		.links-4{
+			a{
+				background-position:0 -183px;
+			}
+		}
+		.links-5{
+			a{
+				background-position:-140px -183px;
+			}
+		}
+		.links-6{
+			a{
+				background-position:-(140px*2) -183px;
+			}
+		}
+		.links-7{
+			a{
+				background-position:-(140px*3) -183px;
+			}
+		}
+		.links-8{
+			a{
+				background-position:-(140px*4) -183px;
+			}
+		}
+		.links-9{
+			a{
+				background-position:-(140px*5) -183px;
+			}
+		}
+		.links-10{
+			a{
+				background-position:0 -233px;
+			}
+		}
+		.links-11{
+			a{
+				background-position:-140px -233px;
+			}
+		}
+		.links-12{
+			a{
+				background-position:-140px*2 -233px;
+			}
+		}
+		.links-13{
+			a{
+				background-position:-140px*3 -233px;
+			}
+		}
+		.links-14{
+			a{
+				background-position:-140px*4 -233px;
+			}
+		}
+		.links-15{
+			a{
+				background-position:-140px*5 -233px;
+			}
+		}
+	}
+}

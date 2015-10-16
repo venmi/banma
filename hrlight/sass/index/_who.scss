@@ -1,0 +1,92 @@
+$who-bg:#fff;
+.who{
+	height: 690px;
+	background-color: $who-bg;
+	background-image: url(../images/who-bg.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	h3{
+		width: 405px;
+		height: 40px;
+		@extend %sprites;
+		@extend %indent;
+		background-position: 0 -133px;
+		margin: 82px auto 11px;
+	}
+	p{
+		color: #383838;
+		font-size: 14px;
+		text-align: center;
+	}
+	.iterms{
+		width: 900px;
+		margin: 0 auto;
+		overflow: hidden;
+		.tit{
+			width: 900px;
+			height: 40px;
+			@extend %sprites;
+			background-position: 0 -93px;
+			margin: 60px auto 32px;
+			li{
+				width: 300px;
+				line-height: 40px;
+				float: left;
+				text-align: center;
+				color: #fff;
+				font-size: 18px;
+			}
+		}
+		.iterm{
+			width: 300px;
+			float: left;
+			overflow: hidden;
+			li{
+				margin-bottom: 32px;
+				font-size: 18px;
+			}
+			.icon{
+				width: 19px;
+				height: 19px;
+				display:block;
+				@extend %sprites;
+				margin-right:13px;
+				float: left;
+			}
+		}
+		.one{
+			color: #6ACEFF;
+			li{
+				margin-left: 34px;
+			}
+			.icon{
+				background-position: 0 0;
+			}
+		}
+		.two{
+			color: #4C9855;
+			li{
+				margin-left: 60px;
+			}
+			.icon{
+				background-position: -19px 0;
+			}
+		}
+		.three{
+			color: #FF7400;
+			li{
+				margin-left: 60px;
+			}
+			.icon{
+				background-position: -38px 0;
+			}
+		}
+	}
+	.iterm-icon{
+		width: 900px;
+		height: 140px;
+		margin: 29px auto 0;
+		@extend %sprites;
+		background-position: 0 -490px;
+	}
+}

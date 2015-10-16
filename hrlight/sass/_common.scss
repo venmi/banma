@@ -1,0 +1,16 @@
+.container{
+	width:1000px;
+	margin: 0 auto;
+	overflow:hidden;
+}
+
+%indent{
+	text-indent: -9999em;
+}
+
+/* Start Sprite Master CSS */
+%sprites{
+	background-repeat: no-repeat;
+	background-image: url('../images/sprites.png');
+}
+/* End Sprite Master CSS */

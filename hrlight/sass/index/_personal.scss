@@ -1,0 +1,73 @@
+$personal-bg:#fff;
+.personal{
+	height: 650px;
+	background-color: $personal-bg;
+	background-image: url(../images/personal-bg.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	.container{
+		> p{
+			color: #383838;
+			font-size: 14px;
+			text-align: center;
+			line-height: 25px;
+		}
+	}
+	h3{
+		width: 405px;
+		height: 30px;
+		@extend %sprites;
+		@extend %indent;
+		background-position: 0 -31px;
+		margin: 57px auto 25px;
+	}
+	
+	.iterms{
+		width: 1000px;
+		height: 650px;
+		margin-top: 67px;
+		position: relative;
+		li{
+			width: 180px;
+			position: absolute;
+			h4{
+				font-size: 24px;
+				font-weight: bold;
+				margin-bottom: 10px;
+			}
+			p{
+				font-size: 18px;
+				line-height: 30px;
+				color: #666;
+			}
+		}
+		.one{
+			top: 0;
+			left: 143px;
+			h4{
+				color: #41BEFF;
+			}
+		}
+		.two{
+			top: 0;
+			left: 629px;
+			h4{
+				color: #FC6565;
+			}
+		}
+		.three{
+			top: 175px;
+			left: 273px;
+			h4{
+				color: #38AC7A;
+			}
+		}
+		.four{
+			top: 175px;
+			left: 759px;
+			h4{
+				color: #E6DC00;
+			}
+		}
+	}
+}
