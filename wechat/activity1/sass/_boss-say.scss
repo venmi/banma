@@ -1,0 +1,124 @@
+.boss-say{
+	width: 100%;
+	height: px2rem(909);
+	background:url(../images/boss-say-bg.png) no-repeat #fe5d74 center bottom;
+	background-size: px2rem(640) px2rem(41);
+	line-height: 1;
+	.top{
+		padding-top: px2rem(46);
+		.p1{
+			font-size: px2rem(30);
+			color: #fcff03;
+			text-align: center;
+		}
+		.p2{
+			font-size: px2rem(24);
+			color: #fff;
+			text-align: center;
+			margin-top: px2rem(13);
+		}
+		.p3{
+			text-align: center;
+			margin-top: px2rem(18);
+			color: #fff;
+			font-size: px2rem(18);
+			span{
+				font-size: px2rem(36);
+				color: #fcff03;
+				margin-left: px2rem(10);
+			}
+		}
+		.p4{
+			font-size: px2rem(30);
+			color: #fcff03;
+			text-align: center;
+			margin-top: px2rem(51);
+		}
+	}
+	.boss{
+		width: px2rem(640);
+		height: px2rem(259);
+		background: url(../images/boss.png) no-repeat px2rem(375) px2rem(0);
+		background-size: px2rem(243) px2rem(259);
+		text-align: right;
+		margin-top: px2rem(4);
+		padding-right: px2rem(282);
+		.p1{
+			font-size: px2rem(24);
+			color: #fcff03;
+			padding-top: px2rem(66);
+		}
+		.p2{
+			font-size: px2rem(18);
+			color: #fff;
+			padding-top: px2rem(15);
+		}
+		.p3{
+			font-size: px2rem(24);
+			color: #fcff03;
+			padding-top: px2rem(8);
+		}
+		.p4{
+			font-size: px2rem(18);
+			color: #fff;
+			padding-top: px2rem(13);
+		}
+		.p5{
+			font-size: px2rem(18);
+			color: #fff;
+			padding-top: px2rem(6);
+		}
+		.p6{
+			font-size: px2rem(14);
+			color: #fff;
+			padding-top: px2rem(20);
+		}
+	}
+	.hr{
+		width: px2rem(640);
+		height: px2rem(228);
+		background: url(../images/hr.png) no-repeat px2rem(47) px2rem(0);
+		background-size: px2rem(259) px2rem(206);
+		text-align: left;
+		margin-top: px2rem(23);
+		padding-left: px2rem(239);
+		.p1{
+			font-size: px2rem(24);
+			color: #fcff03;
+			padding-top: px2rem(101);
+		}
+		.p2{
+			font-size: px2rem(18);
+			color: #fff;
+			padding-top: px2rem(9);
+			span{
+				font-size: px2rem(24);
+				color: #fcff03;
+				margin-left: px2rem(4);
+			}
+		}
+		.p3{
+			font-size: px2rem(18);
+			color: #fff;
+			padding-top: px2rem(7);
+		}
+		.p4{
+			font-size: px2rem(18);
+			color: #fff;
+			padding-top: px2rem(7);
+		}
+		.p5{
+			font-size: px2rem(14);
+			color: #fff;
+			padding-top: px2rem(13);
+		}
+	}
+	.bottom{
+		clear: both;
+		line-height: 1;
+		text-align: center;
+		color: #fff;
+		padding-top: px2rem(55);
+		font-size: px2rem(28);
+	}
+}

@@ -1,0 +1,27 @@
+.icon-control{
+	ul.icon-list{
+		width: 100%;
+		overflow: hidden;
+		border-bottom: 1px solid #ddd;
+		li.icon{
+			width: 25%;
+			height: px2rem(210);
+			float: left;
+			border: 1px solid #ddd;
+			margin: -1px;
+
+			a{
+				display: block;
+				width: 100%;
+				height: 100%;
+				font-size: px2rem(24);
+				text-decoration: none;
+				text-align: center;
+				color: #999;
+				&:hover{
+					background-color: #f4f4f4;
+				}
+			}
+		}
+	}
+}

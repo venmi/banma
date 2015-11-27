@@ -1,0 +1,16 @@
+html,body,div,p,ul,li,a,img,span,em,input,label,h2,h4{
+	margin: 0;
+	padding: 0;
+}
+*{
+	box-sizing : border-box;
+}
+ul,li{
+	list-style: none;
+}
+input,button{
+	outline: none;
+}
+button{
+	cursor: pointer;
+}

@@ -1,0 +1,13 @@
+.swiper-container{
+	height: px2rem(380);
+	.swiper-wrapper{
+		.swiper-slide{
+            img{
+            	height: px2rem(380);
+            }
+            .swiper-lazy-preloader{
+            	line-height: px2rem(380);
+            }
+		}
+	}
+}

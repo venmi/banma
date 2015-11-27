@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <title>点子用户管理系统</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="styles/amazeui.min.css">
+    <link rel="stylesheet" href="styles/user.css">
+  </head>
+  <body>
+  <div class="nav">
+    <div class="logo"><span class="am-icon-group"></span>欢迎使用点子用户管理系统</div>
+    <div class="search">
+      <div class="am-input-group am-input-group-primary">
+        <input type="text" class="am-form-field">
+        <span class="am-input-group-btn">
+          <button class="am-btn am-btn-primary" type="button">
+          <span class="am-icon-search"></span>
+          </button>
+        </span>
+      </div>
+    </div>
+    <div class="export">
+      <button class="am-btn am-btn-primary">导出表格 <i class="am-icon-file-excel-o"></i></button>
+    </div>
+  </div>
+  <div class="content">
+    <div class="am-panel am-panel-default">
+      <div class="am-panel-hd">用户信息</div>
+      <div class="am-panel-bd">
+        <table class="am-table am-table-bordered am-table-radius am-table-striped">
+        <thead>
+            <tr>
+                <th>序号</th>
+                <th>注册时间</th>
+                <th>手机号码</th>
+                <th>警号</th>
+                <th>单位</th>
+                <th>微信昵称</th>
+                <th>微信号</th>
+            </tr>
+        </thead>
+        <tbody id="data-box">
+        </tbody>
+      </table>
+      </div>
+    </div>
+    <ul class="am-pagination am-pagination-right">
+      <li class="am-disabled"><a href="#">&laquo;</a></li>
+      <li class="am-active"><a href="#">1</a></li>
+      <li><a href="#">2</a></li>
+      <li><a href="#">3</a></li>
+      <li><a href="#">4</a></li>
+      <li><a href="#">5</a></li>
+      <li><a href="#">&raquo;</a></li>
+    </ul>
+  </div>
+  </body>
+  <script src="javascripts/jquery.min.js"></script>
+  <script src="javascripts/amazeui.min.js"></script>
+  <script src="javascripts/data.js"></script>
+</html>

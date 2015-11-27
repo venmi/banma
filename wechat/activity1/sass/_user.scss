@@ -1,0 +1,66 @@
+.user{
+	width: 100%;
+	height: px2rem(822);
+	background: url(../images/user-bg.jpg) no-repeat top left;
+	background-size: px2rem(640) px2rem(822);
+	.text{
+		width: px2rem(366);
+		height: px2rem(91);
+		padding-top: px2rem(178);
+		margin: 0 auto;
+		img{
+			width: px2rem(366);
+			height: px2rem(91);
+		}
+	}
+	.list{
+		width: px2rem(294);
+		height: px2rem(367);
+		float: left;
+		margin-top: px2rem(140);
+		border-radius:px2rem(20);
+		background: url(../images/user-info-line.png) no-repeat #f2faff center;
+		background-size: px2rem(272);
+		li{
+			overflow: hidden;
+			height: px2rem(183);
+		}
+		.photo{
+			width: px2rem(84);
+			height: px2rem(84);
+			float: left;
+			margin-top: px2rem(38);
+			margin-left: px2rem(14);
+			img{
+				width: 100%;
+			}
+		}
+		.name{
+			width: px2rem(84);
+			float: left;
+			text-align: center;
+			line-height: px2rem(14);
+			font-size: px2rem(10);
+			margin-top: px2rem(12);
+			margin-left: px2rem(12);
+		}
+		.say{
+			width: px2rem(152);
+			height: px2rem(81);
+			background: url(../images/user-info-bg.png) no-repeat;
+			background-size: px2rem(152) px2rem(81);
+			font-size: px2rem(10);
+			padding-top: px2rem(15);
+			padding-left: px2rem(8);
+			float: right;
+			margin-top: px2rem(61);
+			margin-right: px2rem(20);
+		}
+	}
+	.left{
+		margin-left: px2rem(24);
+	}
+	.right{
+		margin-left: px2rem(9);
+	}
+}
