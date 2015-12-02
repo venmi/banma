@@ -1,0 +1,66 @@
+@import "compass/reset";
+@import "compass/css3";
+@import "hot";
+body{
+	background: url(../images/bg.jpg) no-repeat #fff;
+	background-size: 100%;
+}
+.box{
+	width: px2rem(620);
+	height: px2rem(340);
+	margin: px2rem(256) auto 0;
+	background-color: rgba(255,255,255,0.3);
+	@include border-radius(px2rem(10));
+	text-align: center;
+	h1{
+		font-size: px2rem(34);
+		color: #fff;
+		text-align: center;
+		padding-top: px2rem(36);
+	}
+	.mobile{
+		display: block;
+		width: px2rem(432);
+		height: px2rem(72);
+		outline: none;
+		border:px2rem(3) solid #eb5508;
+		background: none;
+		text-align: center;
+		font-size: px2rem(42);
+		color: rgba(255,255,255,0.84);
+		@include border-radius(px2rem(10));
+		margin: px2rem(40) auto 0;
+		box-sizing:border-box;
+		&::-webkit-input-placeholder{
+			color: rgba(255,255,255,0.4);
+		}
+		&::-moz-placeholder{
+			color: rgba(255,255,255,0.4);
+		}
+		&:-ms-input-placeholder{
+			color: rgba(255,255,255,0.4);
+		}
+	}
+	.button{
+		width: px2rem(438);
+		height: px2rem(78);
+		outline: none;
+		border:none;
+		background: #eb5508;
+		text-align: center;
+		font-size: px2rem(34);
+		color: rgba(255,255,255,0.84);
+		@include border-radius(px2rem(10));
+		margin: px2rem(40) auto 0;
+		cursor: pointer;
+		&:hover{
+			background-color: #f3712f;
+		}
+	}
+}
+.success{
+	font-size: px2rem(34);
+	color: #fff;
+	line-height: px2rem(48);
+	padding-top: px2rem(129);
+}
