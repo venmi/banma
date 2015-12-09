@@ -1,3 +1,45 @@
 .header{
-	
+	.container{
+		overflow: hidden;
+	}
+	.logo{
+		float: left;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		img{
+			width: 108px;
+			height: 46px;
+		}
+	}
+	.slogan{
+		float: left;
+		height: 35px;
+		line-height: 35px;
+		margin-left: 14px;
+		margin-top: 20px;
+		padding-left: 13px;
+		border-left: 1px solid $border-color;
+	}
+	.menu{
+		float: right;
+		font-size: 14px;
+		margin-top: 30px;
+		>li{
+			float: left;
+			margin-left: 60px;
+			a{
+				display: inline-block;
+				border-bottom: 3px solid $white;
+				&:hover{
+					border-bottom: 3px solid $orange;
+				}
+			}
+			&.active{
+				a{
+					color: $orange;
+					border-bottom: 3px solid $orange;
+				}
+			}
+		}
+	}
 }
