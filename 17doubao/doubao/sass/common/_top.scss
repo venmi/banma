@@ -1,0 +1,13 @@
+.top{
+	line-height: 44px;
+	.container{
+		border-bottom: 1px solid $border-color;
+		overflow: hidden;
+	}
+	.phone{
+		float: left;
+	}
+	.sign{
+		float: right;
+	}
+}
